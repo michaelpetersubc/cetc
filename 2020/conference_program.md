@@ -4,15 +4,15 @@
 ## May 8th
 
 ### Session A: 7am - 9:40am, Moderator: Vitor Farinha Luz
-1. 7am-740am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers)  
+1. 7am-7:40am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers)  
 George Georgiadis* (Kellogg School of Management), Daniel F. Garrett (Toulouse School of Economics),  
  Alex Smolin (Toulouse School of Economics), Balázs Szentes (London School of Economics)
-1. 740am - 820am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/)  
+1. 7:40am - 8:20am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/)  
 Mariann Ollar* (University of Edinburgh), Antonio Penta (Pompeu Fabra University)
-1. 820am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/)  
+1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/)  
 Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (Leavey School of Business),  
  Roland Strausz (Humboldt-Universität zu Berlin)
- 1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/)  
+1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/)  
   	Anne-Katrin Roesler* (University of Toronto), Doron Ravid (University of Chicago),  
    Balazs Szentes (London School of Economics)
 
