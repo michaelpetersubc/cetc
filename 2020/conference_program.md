@@ -34,7 +34,7 @@ Ron Siegel (Pennsylvania State University), Xiao Lin (Pennsylvania State Univers
 1. 2:20pm - 1pm [Optimal Rating Design](http://www.shourideh.com)  
  	Ali Shourideh* (Carnegie Mellon University), Maryam Saeedi (Carnegie Mellon University)
   
-  ### Session E: 3pm - 5pm
+### Session E: 3pm - 5pm
 1. 3pm - 3:40pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/)  
 Harry PEI* (Northwestern University)
 1. 3:40pm - 4:20pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/)  
@@ -45,12 +45,12 @@ Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 
 ## May 9th
 
-  ### Session A: 8am - 10am
+### Session A: 8am - 10am
 1. 8am - 8:40am []()
 1. 8:40am - 9:20am []()
 1. 9:20am - 10am []()
 
-  ### Session B: 10am - 12:40pm
+### Session B: 10am - 12:40pm
 1. 10am - 10:40am []()
 1. 10:40am - 11:20am []()
 1. 11:20am - 12pm []()
@@ -58,12 +58,12 @@ Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 
 ### Break 12:40pm - 1pm
 
-  ### Session D: 1pm - 3pm
+### Session D: 1pm - 3pm
 1. 1pm - 1:40pm []()
 1. 1:40pm - 2:20pm []()
 1. 2:20pm - 3pm []()
 
-  ### Session E: 3pm - 5pm
+### Session E: 3pm - 5pm
 1. 3pm - 3:40pm []()
 1. 3:40pm - 4:20pm []()
 1. 4:20pm - 5pm []()
