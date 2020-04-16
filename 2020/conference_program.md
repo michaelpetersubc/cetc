@@ -3,7 +3,8 @@
 
 ## May 8th
 
-### Session A: 7am - 9:40am, Moderator: Vitor Farinha Luz
+### Session A: 7am - 9:40am 
+#### Moderator: Vitor Farinha Luz
 1. 7am-7:40am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers)  
 George Georgiadis* (Kellogg School of Management), Daniel F. Garrett (Toulouse School of Economics),  
  Alex Smolin (Toulouse School of Economics), Balázs Szentes (London School of Economics)
@@ -18,7 +19,8 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 
 ### Break: 9:40am - 10am
 
-### Session B: 10am - 12pm, Moderator: Vitor Farinha Luz
+### Session B: 10am - 12pm 
+#### Moderator: Vitor Farinha Luz
 1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
 1. 10:40am - 11:20am [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
@@ -28,7 +30,8 @@ Ken Hendricks* (University of Wisconsin-Madison), Thomas Wiseman (University of 
 
 ### Break: 12pm - 12:20pm
 
-### Session D: 12:20pm - 3pm, Moderator: Sergei Severinov
+### Session D: 12:20pm - 3pm 
+#### Moderator: Sergei Severinov
 1. 12:20pm - 1pm [Imperfect Competition in Online Auctions with Sequential Entry](	http://sites.google.com/view/alexander-maslov)  
 Alexander Maslov* (Kennesaw State University), Jesse A. Schwartz (Kennesaw State University)
 1. 1pm - 1:40pm [Designing and Pricing Certificates](http://personal.psu.edu/nuh47/)  
@@ -41,7 +44,8 @@ Svetlana Kosterina* (Princeton University)
 
 ### Break: 3pm - 3:20pm
   
-### Session E: 3:20pm - 5:20pm, Moderator: Sergei Severinov
+### Session E: 3:20pm - 5:20pm 
+#### Moderator: Sergei Severinov
 1. 3:20pm - 4pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/)  
 Harry PEI* (Northwestern University)
 1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/)  
