@@ -1,5 +1,5 @@
 # CETC Conference Program
--Very preliminary program
+-Somewhat preliminary program
 
 ## May 8th
 
