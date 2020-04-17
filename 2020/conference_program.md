@@ -10,6 +10,8 @@ PRESENTERS: Please read instructions for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
 
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 
 ## May 8th
 
