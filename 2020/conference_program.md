@@ -15,6 +15,7 @@ PRESENTERS: Please read instructions below for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
 
+----
 
 ## 
 ## May 8th
@@ -71,6 +72,8 @@ Harry Pei* (Northwestern University)
 Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 1. 4:40pm - 5:20pm [Label the Divorced: A Repeated-Game Analysis on (Re)Marriage Market](https://www.yimeng-zhang.com/)  
 Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University), Xiaoxuan Meng (The University of Hong Kong), Yimeng Zhang* (The University of Hong Kong)
+
+----
 
 ## May 9th
 All listed times are in Pacific Standard Time zone (PST).
