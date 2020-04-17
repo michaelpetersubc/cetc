@@ -2,7 +2,7 @@
 <meta property="og:url" content="https://microeconomics.ca/micro/cetc" />
 <meta property="og:title" content="CETC 2020 Program" />
 <meta property="og:description" content="Canadian Economic Theory 2020 | May 8th - May 9th | Program" />
-<meta property="og:image" content="./cetc.png" />
+<meta property="og:image" content="cetc.png" />
 
 
 <div id="fb-root"></div>
