@@ -70,14 +70,14 @@ Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 
 ### Session A: 7am - 9:40am
 #### Moderator: Shunya Noda
-1. 7am - 7:40am [Viral Social Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3299129)  
-Yangbo Song* (Chinese University of Hong Kong), David McAdams (Fuqua School of Business)
-1. 7:40am - 8:20am [Coordination on networks](https://zhoujunjie.weebly.com/)  
+1. 7am - 7:40am [Coordination on networks](https://zhoujunjie.weebly.com/)  
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
-1. 8:20am - 9am [Information acquisition and time-risk preference](http://weijiezhong.com/)  
-Weijie Zhong* (Yale University)
-1. 9am - 9:40am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
+1. 7:40am - 8:20am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
 Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
+1. 8:20am - 9am [Viral Social Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3299129)  
+Yangbo Song* (Chinese University of Hong Kong), David McAdams (Fuqua School of Business)
+1. 9am - 9:40am [Information acquisition and time-risk preference](http://weijiezhong.com/)  
+Weijie Zhong* (Yale University)
 
 ### Break: 9:40am - 10am
 
