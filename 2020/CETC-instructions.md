@@ -2,6 +2,12 @@
 
 The conference will be run as a Zoom webinar. This note goes over the schedule structure and presentation organization.
 
+## Links for registration:
+* General audience: [use this link.](https://zoom.us/webinar/register/9515870863740/WN_ZtYIUomiRPigDbo28x1sdg)
+* Presenters: you will receive an invitation to participate as a panelist and should use **that link** to participate.
+
+More detail provided below.
+
 ## Presentation structure
 
 Each session includes either three or four papers. 
@@ -41,7 +47,7 @@ We will also use the following terminology for this document:
     * Have the presentation open in your computer.
     * Have your webcam and microphone ready.
 * Attendees:
-  * Register through the public access link provided in the program.
+  * Register through the public access link provided above.
   * Registration approval is automatic.
   * You will receive an email with a link to enter the webinar.
 * Moderators:
