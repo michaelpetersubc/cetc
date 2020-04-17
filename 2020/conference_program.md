@@ -112,9 +112,9 @@ Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Ins
 
 ----
 **Organizing committee (University of Brith Columbia):**
-Vitor Farinha Luz
-Shunya Noda
-Michael Peters
-Wei Li
-Li, Hao
-Sergei Severinov
+* Vitor Farinha Luz
+* Shunya Noda
+* Michael Peters
+* Wei Li
+* Li, Hao
+* Sergei Severinov
