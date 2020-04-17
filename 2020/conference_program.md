@@ -2,7 +2,8 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# CETC Conference Program
+# CETC Conference Program <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a>
+   Official Twitter hash tag: #cetc2020
 This is the official program for the Canadian Economic Theory Conference. 
 The 2020 conference is organized by the Vancouver School of Economics at the University of British Columbia.
 
@@ -13,9 +14,6 @@ All listed times are in Pacific Standard Time zone (PST).
 PRESENTERS: Please read instructions for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a>
-   Official Twitter hash tag: #cetc2020
 
 <div class="fb-share-button" data-href="https://microeconomics.ca/micro/cetc" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmicroeconomics.ca%2Fmicro%2Fcetc&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
