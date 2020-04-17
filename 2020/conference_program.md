@@ -76,8 +76,8 @@ Yangbo Song* (Chinese University of Hong Kong), David McAdams (Fuqua School of B
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
 1. 8:20am - 9am [Information acquisition and time-risk preference](http://weijiezhong.com/)  
 Weijie Zhong* (Yale University)
-1. 9am - 9:40am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
-Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
+1. 9am - 9:40am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
+Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
 
 ### Break: 9:40am - 10am
 
@@ -87,8 +87,8 @@ Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Co
 Shota Ichihashi* (Bank of Canada)
 1. 10:40am - 11:20am [Voluntary Disclosure and Personalized Pricing](https://nageebali.wordpress.com/)  
 S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shoshana Vasserman (Stanford University)
-1. 11:20am - 12pm [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
-Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
+1. 11:20am - 12pm [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
+Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
 
 ### Break: 12pm - 12:20pm
 
@@ -109,7 +109,7 @@ Juan F Escobar (University of Chile), Qiaoxi Zhang* (University of Chile)
 ### Session D: 3:20pm - 5:20pm
 #### Moderator: Michael Peters
 1. 3:20pm - 4pm  [Persuading a Rationally Inattentive Agent](https://sites.google.com/site/alexanderbloedel/)  
-Alex Bloedel* (Stanford University), Ilya Segal Stanford University)
+Alex Bloedel* (Stanford University), Ilya Segal (Stanford University)
 1. 4pm - 4:40pm [Electoral Maldistricting](http://www.romanspancs.com)  
 Romans Pancs* (Instituto Tecnológico Autónomo de México),  
 Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Instituto Tecnológico Autónomo de México) 
