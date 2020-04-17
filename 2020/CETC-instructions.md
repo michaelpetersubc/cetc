@@ -52,7 +52,7 @@ We will also use the following terminology for this document:
   * You will receive an email with a link to enter the webinar.
 * Moderators:
   * Please enter the Webinar at least 20 minutes prior to your sesssion to make sure everything is setup.
-  * You will be granted the role of host uppon entry:
+  * You will be granted the role of host upon entry:
     * If this is the first session of the day, the original creator of the event can make you a host.
     * If this is not the first session of the day, the moderator from the last session can pass along the role of a host to you before your session.
   * If your session is followed by another one with a different moderator, you should grant the host ability to the new moderator.
@@ -60,7 +60,7 @@ We will also use the following terminology for this document:
   * **Do not leave the Webinar if you are still the host. This will close the Webinar.**
   * While you are the host, you can name someone else as a "co-host". This person will have the same privileges as you.
 
-## How to behave in during a session:
+## How to behave in a session:
 
 * Active presenter.
   * Have slides loaded in your computer.
