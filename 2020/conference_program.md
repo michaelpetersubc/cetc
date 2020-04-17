@@ -13,7 +13,14 @@ PRESENTERS: Please read instructions for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <div class="fb-share-button" data-href="https://microeconomics.ca/micro/cetc" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmicroeconomics.ca%2Fmicro%2Fcetc&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<table>
+ <tr>
+  <th> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <div class="fb-share-button" data-href="https://microeconomics.ca/micro/cetc" data-layout="button_count" data-size="small"> </th>
+ <th> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmicroeconomics.ca%2Fmicro%2Fcetc&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></th>
+ </tr>
+</table>
+
+
 
 ## 
 ## May 8th
@@ -55,7 +62,7 @@ Alexander Maslov* (Kennesaw State University), Jesse A. Schwartz (Kennesaw State
 S. Nageeb Ali (Penn State University), Nima Haghpanah* (Penn State University),  
 Ron Siegel (Penn State University), Xiao Lin (Penn State University)
 1. 1:40pm - 2:20pm [Optimal Rating Design](http://www.shourideh.com)  
- 	Ali Shourideh* (Carnegie Mellon University), Maryam Saeedi (Carnegie Mellon University)
+Ali Shourideh* (Carnegie Mellon University), Maryam Saeedi (Carnegie Mellon University)
 1. 2:20pm - 3pm [Persuasion with Unknown Beliefs](https://scholar.princeton.edu/svetlanakosterina/)  
 Svetlana Kosterina* (Princeton University)
 
@@ -68,8 +75,7 @@ Harry Pei* (Northwestern University)
 1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/)  
 Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 1. 4:40pm - 5:20pm [Label the Divorced: A Repeated-Game Analysis on (Re)Marriage Market](https://www.yimeng-zhang.com/)  
- 	Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University),  
-  Xiaoxuan Meng (The University of Hong Kong), Yimeng Zhang* (The University of Hong Kong)
+Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University), Xiaoxuan Meng (The University of Hong Kong), Yimeng Zhang* (The University of Hong Kong)
 
 ## May 9th
 
@@ -100,26 +106,24 @@ Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Co
 ### Session C: 12:20pm - 3pm
 #### Moderator: Michael Peters
 1. 12:20pm - 1pm [Behavioral Neural Networks](https://sites.google.com/site/shaoweike/research)  
-Shaowei Ke* (University of Michigan), Chen Zhao (University of Hong Kong),  
-Zhaoran Wang (Northwestern University), Sung-Lin Hsieh (University of Michigan)
+Shaowei Ke* (University of Michigan), Chen Zhao (University of Hong Kong), Zhaoran Wang (Northwestern University), Sung-Lin Hsieh (University of Michigan)
 1. 1pm - 1:40pm [Rational Inattention and Perceptual Distance](https://www.dwalkerjones.com/)  
 David Elliot Walker-Jones* (University of Toronto)
 1. 1:40pm - 2:20pm [Delegating Learning](https://sites.google.com/view/qiaoxi/)  
 Juan F Escobar (University of Chile), Qiaoxi Zhang* (University of Chile)
 1. 2:20pm - 3pm [Competing Pre-match Investments Revisited: A Characterization of Monotone Bayes-Nash Equilibria in Large Markets]( 	https://sites.google.com/site/dizdardeniz/)  
- 	Deniz Dizdar* (Université de Montréal)
+Deniz Dizdar* (Université de Montréal)
 
 ### Break: 3pm - 3:20pm
 
 ### Session D: 3:20pm - 5:20pm
 #### Moderator: Michael Peters
 1. 3:20pm - 4pm [Rationalizable Incentives: Interim Implementation of Sets in Rationalizable Strategies](https://sites.google.com/site/tkunimoto73/)  
- 	Takashi Kunimoto (Singapore Management University), Roberto Serrano* (Brown University)
+Takashi Kunimoto (Singapore Management University), Roberto Serrano* (Brown University)
 1. 4pm - 4:40pm  [Persuading a Rationally Inattentive Agent](https://sites.google.com/site/alexanderbloedel/)  
 Alex Bloedel* (Stanford University), Ilya Segal (Stanford University)
 1. 4:40pm - 5:20pm  [Electoral Maldistricting](http://www.romanspancs.com)  
-Romans Pancs* (Instituto Tecnológico Autónomo de México),  
-Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Instituto Tecnológico Autónomo de México) 
+Romans Pancs* (Instituto Tecnológico Autónomo de México), Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Instituto Tecnológico Autónomo de México) 
 
 Symbol * indicates presenter.
 
