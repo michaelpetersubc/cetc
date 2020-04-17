@@ -117,7 +117,7 @@ Romans Pancs* (Instituto Tecnológico Autónomo de México),
 Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Instituto Tecnológico Autónomo de México) 
 
 ----
-**Organizing committee (University of Brith Columbia):**
+**Organizing committee (University of British Columbia):**
 * Vitor Farinha Luz
 * Shunya Noda
 * Michael Peters
