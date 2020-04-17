@@ -109,12 +109,14 @@ Juan F Escobar (University of Chile), Qiaoxi Zhang* (University of Chile)
 ### Session D: 3:20pm - 5:20pm
 #### Moderator: Michael Peters
 1. 3:20pm - 4pm [Rationalizable Incentives: Interim Implementation of Sets in Rationalizable Strategies](https://sites.google.com/site/tkunimoto73/)  
- 	Takashi Kunimoto* (Singapore Management University), Roberto Serrano (Brown University)
+ 	Takashi Kunimoto (Singapore Management University), Roberto Serrano* (Brown University)
 1. 4pm - 4:40pm  [Persuading a Rationally Inattentive Agent](https://sites.google.com/site/alexanderbloedel/)  
 Alex Bloedel* (Stanford University), Ilya Segal (Stanford University)
 1. 4:40pm - 5:20pm  [Electoral Maldistricting](http://www.romanspancs.com)  
 Romans Pancs* (Instituto Tecnológico Autónomo de México),  
 Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Instituto Tecnológico Autónomo de México) 
+
+Symbol * indicates presenter.
 
 ----
 **Organizing committee (University of British Columbia):**
