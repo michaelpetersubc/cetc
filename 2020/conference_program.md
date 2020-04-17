@@ -15,7 +15,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
  Roland Strausz (Humboldt-Universität zu Berlin)
 1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/)  
   	Anne-Katrin Roesler* (University of Toronto), Doron Ravid (University of Chicago),  
-   Balazs Szentes (London School of Economics)
+   Balázs Szentes (London School of Economics)
 
 ### Break: 9:40am - 10am
 
@@ -47,7 +47,7 @@ Svetlana Kosterina* (Princeton University)
 ### Session D: 3:20pm - 5:20pm 
 #### Moderator: Sergei Severinov
 1. 3:20pm - 4pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/)  
-Harry PEI* (Northwestern University)
+Harry Pei* (Northwestern University)
 1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/)  
 Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 1. 4:40pm - 5:20pm [Label the Divorced: A Repeated-Game Analysis on (Re)Marriage Market](https://www.yimeng-zhang.com/)  
