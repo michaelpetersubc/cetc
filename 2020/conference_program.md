@@ -110,3 +110,11 @@ Tridib Sharma (Instituto Tecnológico Autónomo de México), Andrei Gomberg (Ins
 1. 4:40pm - 5:20pm [Rationalizable Incentives: Interim Implementation of Sets in Rationalizable Strategies](https://sites.google.com/site/tkunimoto73/)  
  	Takashi Kunimoto* (Singapore Management University), Roberto Serrano (Brown University)
 
+----
+**Organizing committee (University of Brith Columbia):**
+Vitor Farinha Luz
+Shunya Noda
+Michael Peters
+Wei Li
+Li, Hao
+Sergei Severinov
