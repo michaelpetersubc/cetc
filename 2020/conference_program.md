@@ -64,7 +64,7 @@ Yangbo Song* (Chinese University of Hong Kong), David McAdams (Fuqua School of B
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
 1. 8:20am - 9am [Information acquisition and time-risk preference](http://weijiezhong.com/)  
 Weijie Zhong* (Yale University)
-1. 9am - 9:40am [Mechanism Design with Blockchain Enforcement]()  
+1. 9am - 9:40am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
 Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
 
 ### Break: 9:40am - 10am
