@@ -5,22 +5,20 @@
 # CETC Conference Program  
 
 <div class="fb-share-button" data-href="https://microeconomics.ca/micro/cetc" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmicroeconomics.ca%2Fmicro%2Fcetc&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a> Official Twitter hash tag: #cetc2020
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020 program available @" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a> Official Twitter hash tag: #cetc2020
 
-This is the official program for the Canadian Economic Theory Conference. 
-The 2020 conference is organized by the Vancouver School of Economics at the University of British Columbia.
-
-All listed times are in Pacific Standard Time zone (PST).
+This is the official program for the 2020 Canadian Economic Theory Conference, organized by the University of British Columbia.
 
 **The general public (non-presenters) can register to attend [here.](https://zoom.us/webinar/register/9515870863740/WN_ZtYIUomiRPigDbo28x1sdg)** 
 
-PRESENTERS: Please read instructions for access details.
+PRESENTERS: Please read instructions below for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
 
 
 ## 
 ## May 8th
+All listed times are in Pacific Standard Time zone (PST).
 
 ### Opening remarks: 6:50am - 7am
 
@@ -75,6 +73,7 @@ Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University), Xiaoxuan Meng (The University of Hong Kong), Yimeng Zhang* (The University of Hong Kong)
 
 ## May 9th
+All listed times are in Pacific Standard Time zone (PST).
 
 ### Session A: 7am - 9:40am
 #### Moderator: Shunya Noda
