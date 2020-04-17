@@ -2,6 +2,8 @@
 This is the official program for the Canadian Economic Theory Conference. 
 The 2020 conference is organized by the Vancouver School of Economics at the University of British Columbia.
 
+All listed times are in Pacific Standard Time zone (PST).
+
 **The general public (non-presenters) can register to attend [here.](https://zoom.us/webinar/register/9515870863740/WN_ZtYIUomiRPigDbo28x1sdg)** 
 
 PRESENTERS: Please read instructions for access details.
@@ -10,6 +12,8 @@ PRESENTERS: Please read instructions for access details.
 
 ## 
 ## May 8th
+
+### Opening remarks: 6:50am - 7am
 
 ### Session A: 7am - 9:40am 
 #### Moderator: Vitor Farinha Luz
