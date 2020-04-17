@@ -5,7 +5,7 @@
 # CETC Conference Program  
 
 <div class="fb-share-button" data-href="https://microeconomics.ca/micro/cetc" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmicroeconomics.ca%2Fmicro%2Fcetc&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020 program available @" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a> Official Twitter hash tag: #cetc2020
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2020 program available @" data-url="https://microeconomics.ca/micro/cetc" data-hashtags="cetc2020" data-show-count="false">Tweet</a> Official hashtag: #cetc2020
 
 This is the official program for the 2020 Canadian Economic Theory Conference, organized by the University of British Columbia.
 
