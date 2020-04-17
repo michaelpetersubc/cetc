@@ -2,7 +2,7 @@
 <meta property="og:url" content="https://microeconomics.ca/micro/cetc" />
 <meta property="og:title" content="CETC 2020 Program" />
 <meta property="og:description" content="Canadian Economic Theory Conference 2020 | May 8th - May 9th | Hosted by the University of British Columbia" />
-<meta property="og:image" content="CETC.png" />
+<meta property="og:image" content="https://raw.githubusercontent.com/michaelpetersubc/cetc/master/2020/CETC.png" />
 
 
 <div id="fb-root"></div>
