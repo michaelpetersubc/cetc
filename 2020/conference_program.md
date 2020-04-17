@@ -1,3 +1,8 @@
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://microeconomics.ca/micro/cetc" />
+<meta property="og:title" content="CETC 2020 Program" />
+<meta property="og:description" content="Canadian Economic Theory 2020 | May 8th - May 9th | Program" />
+
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
