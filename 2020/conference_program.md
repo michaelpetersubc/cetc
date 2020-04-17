@@ -1,6 +1,10 @@
 # CETC Conference Program
--Preliminary program
+This is the official program for the Canadian Economic Theory Conference. 
+The 2020 conference is organized by the Vancouver School of Economics at the University of British Columbia.
 
+<u>**You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**</u>
+
+## 
 ## May 8th
 
 ### Session A: 7am - 9:40am 
