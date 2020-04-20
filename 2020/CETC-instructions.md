@@ -85,9 +85,3 @@ We will also use the following terminology for this document:
 ## General Observations
 
 * The presentations will not be recorded.
-
-----
-
-<div class="footer">
-   &copy; 2020 Vitor Farinha Luz
-</div>
