@@ -24,7 +24,6 @@ PRESENTERS: Please read instructions below for access details.
 
 ----
 
-## 
 ## May 8th
 All listed times are in Pacific Standard Time zone (PST).
 
