@@ -19,7 +19,7 @@ Details for the training sessions:
 
 The conference program can be found [here](https://michaelpetersubc.github.io/cetc/2020/conference_program).
 
-We also l**aunched a Slack workspace for the conference**. [This](https://join.slack.com/t/cetctalk/shared_invite/zt-dtk2f4lg-0mLgqf_L21T5KHRu4NjKyg) is the invitation link for the CETC workspace (the invitation link will expire in 30 days). Since we cannot have "offline" conversations in a online conference, we attempt to substitute it with Slack.
+We also **launched a Slack workspace for the conference**. [This](https://join.slack.com/t/cetctalk/shared_invite/zt-dtk2f4lg-0mLgqf_L21T5KHRu4NjKyg) is the invitation link for the CETC workspace (the invitation link will expire in 30 days). Since we cannot have "offline" conversations in a online conference, we attempt to substitute it with Slack.
 
 For those who are not familiar with Slack: Slack is a collaboration hub that can replace e-mail. Compared with e-mail or other social networking services (like Facebook, Twitter, LinkedIn), Slack is designed for professional communications. For example, it is easier to make a "channel" (a chat group for talking about a specific issue). [Here](https://slack.com/intl/en-ca/help/articles/115004071768-What-is-Slack-) is the official guidance for Slack. Although you can access this workspace via your web browser, we recommend using Slack with the desktop app.
 
