@@ -15,7 +15,7 @@ Details for the training sessions:
 * We will go over all speakers within a day in the same order of the program.
 * We will test: webcam, screen sharing and microphone.
 
-The conference program can be found here. More detailed instructions can be found here.
+The conference program can be found [here](https://michaelpetersubc.github.io/cetc/2020/conference_program). More detailed instructions can be found [here](https://michaelpetersubc.github.io/cetc/2020/CETC-instructions).
 
 We are looking forward to the conference.
 
