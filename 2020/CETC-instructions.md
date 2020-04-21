@@ -1,3 +1,9 @@
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https://microeconomics.ca/micro/cetc" />
+<meta property="og:title" content="CETC 2020 Program" />
+<meta property="og:description" content="Canadian Economic Theory Conference 2020 Instruction | May 8th - May 9th | Hosted by the University of British Columbia" />
+<meta property="og:image" content="https://raw.githubusercontent.com/michaelpetersubc/cetc/master/2020/CETC.png" />
+
 # 2020 CETC - Instructions for participants
 
 The conference will be run as a Zoom webinar. This note goes over the schedule structure and presentation organization.
