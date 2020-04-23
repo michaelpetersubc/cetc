@@ -20,7 +20,7 @@ This is the official program for the 2020 Canadian Economic Theory Conference, o
 
 PRESENTERS: Please read instructions below for access details.
 
-**You can find detailed instructions for access and participation in the conference [here.](https://github.com/michaelpetersubc/cetc/blob/master/2020/CETC-instructions.md)**
+**You can find detailed instructions for access and participation in the conference [here.](https://michaelpetersubc.github.io/cetc/2020/CETC-instructions)**
 
 ----
 
