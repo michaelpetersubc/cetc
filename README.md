@@ -1,7 +1,11 @@
 # Canadian Economic Theory Conference
 The conference occurs each year in May and rotates between Toronto, Montreal and Vancouver.
 
-To submit a paper visit or view general information go to [https://www.economics.utoronto.ca/conferences/index.php/cetc/index/schedConfs/archive](https://www.economics.utoronto.ca/conferences/index.php/cetc/index/schedConfs/archive).
+This year's conference will be broadcast through Zoom on May 8th-9th 2020.
+
+The program can be found [here](https://microeconomics.ca/micro/cetc).
+
+This repository contains documentation related to the conference. If you'd like to contribute to it, just submit a pull request.
 
 ## Previous Conference Programs
 
