@@ -135,10 +135,10 @@ Symbol * indicates presenter.
 ----
 **Organizing committee (University of British Columbia):**
 * Vitor Farinha Luz
+* Li, Hao
+* Wei Li
 * Shunya Noda
 * Michael Peters
-* Wei Li
-* Li, Hao
 * Sergei Severinov
 
 
