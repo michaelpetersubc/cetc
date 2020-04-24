@@ -52,7 +52,7 @@ Gabor Virag* (University of Toronto), Sergei Severinov (University of British Co
 1. 10:40am - 11:20am [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
 Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
 1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main)  
-Ken Hendricks* (University of Wisconsin-Madison), Thomas Wiseman (University of Texas at Austin)
+Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
 
 ### Break: 12pm - 12:20pm
 
