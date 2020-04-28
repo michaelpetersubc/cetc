@@ -25,7 +25,7 @@ PRESENTERS: Please read instructions below for access details.
 ----
 
 ## May 8th
-All listed times are in Pacific Standard Time zone (PST).
+All listed times are in Pacific Standard Time zone (PDT).
 
 ### Opening remarks: 6:50am - 7am
 
@@ -82,7 +82,7 @@ Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University), Xiao
 ----
 
 ## May 9th
-All listed times are in Pacific Standard Time zone (PST).
+All listed times are in Pacific Standard Time zone (PDT).
 
 ### Session A: 7am - 9:40am
 #### Moderator: Shunya Noda
