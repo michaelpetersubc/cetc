@@ -54,8 +54,7 @@ Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Co
 1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main)  
 Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
 
-*"A Search Model of Statistical Discrimination" by Peter Norman is moved to [Session B of May 9th](#Day2SessionB).*
-{: .gitlab-orange}
+**Note:** *"A Search Model of Statistical Discrimination" by Peter Norman is moved to [Session B of May 9th](#Day2SessionB).*
 
 ### Break: 12pm - 12:20pm
 
@@ -109,8 +108,7 @@ S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shos
 1. 11:20am - 12pm [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
 Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
 
-*"Mechanism Design with Blockchain Enforcement" by Shunya Noda is moved to [Session B of May 8th](#Day1SessionB).*
-{: .gitlab-orange}
+**Note:** *"Mechanism Design with Blockchain Enforcement" by Shunya Noda is moved to [Session B of May 8th](#Day1SessionB).*
 
 
 ### Break: 12pm - 12:20pm
