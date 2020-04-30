@@ -45,7 +45,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 
 ### Break: 9:40am - 10am
 
-### Session B: 10am - 12pm 
+### Session B: 10am - 12pm <a name = "Day1Session B"></a>
 #### Moderator: Vitor Farinha Luz
 1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
@@ -53,6 +53,9 @@ Gabor Virag* (University of Toronto), Sergei Severinov (University of British Co
 Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
 1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main)  
 Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
+
+"A Search Model of Statistical Discrimination" by Peter Norman is moved to [Session B of May 9th](#Day2SessionB).
+
 
 ### Break: 12pm - 12:20pm
 
@@ -97,7 +100,7 @@ Weijie Zhong* (Yale University)
 
 ### Break: 9:40am - 10am
 
-### Session B: 10am - 12pm
+### Session B: 10am - 12pm <a name = "Day2SessionB"></a>
 #### Moderator: Shunya Noda
 1. 10am - 10:40am [Dynamic Privacy Choices](http://shotaichi.weebly.com/)  
 Shota Ichihashi* (Bank of Canada)
@@ -105,6 +108,9 @@ Shota Ichihashi* (Bank of Canada)
 S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shoshana Vasserman (Stanford University)
 1. 11:20am - 12pm [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
 Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
+
+"Mechanism Design with Blockchain Enforcement" by Shunya Noda is moved to [Session B of May 8th](#Day1SessionB).
+
 
 ### Break: 12pm - 12:20pm
 
