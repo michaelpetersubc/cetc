@@ -49,8 +49,8 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 #### Moderator: Vitor Farinha Luz
 1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
-1. 10:40am - 11:20am [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
-Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
+1. 10:40am - 11:20am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
+Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
 1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main)  
 Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
 
@@ -103,8 +103,8 @@ Weijie Zhong* (Yale University)
 Shota Ichihashi* (Bank of Canada)
 1. 10:40am - 11:20am [Voluntary Disclosure and Personalized Pricing](https://nageebali.wordpress.com/)  
 S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shoshana Vasserman (Stanford University)
-1. 11:20am - 12pm [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
-Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
+1. 11:20am - 12pm [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
+Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
 
 ### Break: 12pm - 12:20pm
 
