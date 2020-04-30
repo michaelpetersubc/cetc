@@ -45,7 +45,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 
 ### Break: 9:40am - 10am
 
-### Session B: 10am - 12pm <a name = "Day1Session B"></a>
+### Session B: 10am - 12pm <a name = "Day1SessionB"></a>
 #### Moderator: Vitor Farinha Luz
 1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
