@@ -1,4 +1,4 @@
-Dear Speaker,
+Dear Participants of CETC 2020,
 
 We look forward to your presentation at the 2020 Canadian Economic Theory Conference.
 
