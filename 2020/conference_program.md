@@ -25,7 +25,7 @@ PRESENTERS: Please read instructions below for access details.
 ----
 
 ## May 8th
-All listed times are in Pacific Standard Time zone (PDT).
+All listed times are in Pacific Daylight Time zone (PDT).
 
 ### Opening remarks: 6:50am - 7am
 
