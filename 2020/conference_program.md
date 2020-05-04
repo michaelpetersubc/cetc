@@ -22,6 +22,11 @@ PRESENTERS: Please read instructions below for access details.
 
 **You can find detailed instructions for access and participation in the conference [here.](https://michaelpetersubc.github.io/cetc/2020/CETC-instructions)**
 
+**We launched a Slack workspace for CETC2020!**
+The idea is to use Slack as an imperfect substitute to regular "offline" conversations in a conference. You can request an invitation e-mail from **[this Google form](https://docs.google.com/forms/d/e/1FAIpQLScgZQ4cSAIUgLg7OM-sC0BPf-Xj9tKLwHdodSb20HpOGUao2Q/viewform?usp=sf_link)**.
+
+For those not familiar with Slack: it is a collaboration hub that can replace e-mail. Compared with e-mail or social networking platforms (e.g. Facebook, Twitter, LinkedIn), Slack is designed for professional communications. For example, it is easier to make a “channel” (a chat group for talking about a specific issue). **[Here](https://slack.com/intl/en-ca/help/articles/115004071768-What-is-Slack-)** is Slack’s official guide. Once you join the CETC slack, you can access through your browser and, preferrably, the Slack application.
+
 ----
 
 ## May 8th
