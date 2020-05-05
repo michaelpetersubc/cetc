@@ -18,12 +18,6 @@ Coffee meeting information:
 * Meeting ID: 864 6618 4298
 * Password: 184153
 
-https://us02web.zoom.us/j/86466184298?pwd=NWdOQWZQQ1g1MGZ5cmRRZkFrQURjZz09
-
-Meeting ID: 864 6618 4298
-
-Password: 184153
-
 How to use the parallel coffee meeting is up to you. For example, you can quit the webinar and enjoy chatting during the break time. You can also join the webinar room and coffee room simultaneously, using two different devices (you can use Zoom via your tablet or smartphone as well). If you'd like to join both the main webinar and parallel coffee meeting simulataneously using the same computer and same Zoom account, you seem to need a **paid** Zoom account. For the prerequistes and operations, please read [the official guide of Zoom](https://support.zoom.us/hc/en-us/articles/360001120743-Join-Multiple-Meetings-Simultaneously-on-Desktop).
 
 This coffee session will only be available on day 1. The idea is for day 2 to be a "control group" so that we can learn about the best way to encourage interactions. After the conference is over, we will ask you to make some feedback, and try to incorporate your opinion into the organization of future conferences.
