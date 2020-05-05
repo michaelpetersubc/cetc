@@ -17,4 +17,4 @@ We would also appreciate any suggestions for improving the conference, especiall
 
 We are looking forward to the conference!
 
-Shunya, Vitor, Mike, Serge, Li Hao, Li Wei, Clemens
+Shunya, Vitor, Mike, Sergei, Li Hao, Li Wei, Clemens
