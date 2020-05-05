@@ -5,20 +5,28 @@ Thank you very much for presenting in the 2020 Canadian Economic Theory Conferen
 We have two important announcements:
 
 **1. Your co-authors can become panelists.**
+
 During the session, you can ask the moderator of your session to promote your co-author to a panelist. Then, the panelist can answer questions posted in the Q&A field, without stopping the main stream of the webinar. The promoted co-authors can also speak, so they can also answer the questions by Voice in the Q&A time.
 
 We are grateful to Romans Pancs for this great suggestion.
 
 
 **2. On Day 1 (Friday May 8th), we open a parallel coffee session.**
+
 The idea is to encourage disucssion about the papers among presenters further. You can also talk in the webinar room, but because the webinar room is visible from all the participants, we thought that it might be better to launch a room that is not visible from the general audience.
 
 The link for the coffee session is as follows. This link is shared exclusively with the presenters.
+
 Topic: cetc
+
 Time: May 8, 2020 07:00 AM Vancouver
+
 Join Zoom Meeting
+
 https://us02web.zoom.us/j/86466184298?pwd=NWdOQWZQQ1g1MGZ5cmRRZkFrQURjZz09
+
 Meeting ID: 864 6618 4298
+
 Password: 184153
 
 To join the parallel coffee session without quitting the webinar, you need to enable "Join different meetings simultaneously on desktop." This seems only allowed to people who have a **paid** Zoom account. For the prerequistes and operations, please read [the official guide of Zoom](https://support.zoom.us/hc/en-us/articles/360001120743-Join-Multiple-Meetings-Simultaneously-on-Desktop).
