@@ -26,7 +26,7 @@ How to use the parallel coffee meeting is up to you. For example, you can quit t
 
 This coffee session will only be available on day 1. The idea is for day 2 to be a "control group" so that we can learn about the best way to encourage interactions. After the conference is over, we will ask you to make some feedback, and try to incorporate your opinion into the organization of future conferences.
 
-Here is one more reminder. Again, **we launched a Slack workspace for CETC2020!** The idea is to use Slack as an imperfect substitute to regular "offline" conversations in a conference. You can join the CETC2020 Slack workspace from **[this link](https://join.slack.com/t/cetctalk/shared_invite/zt-dtk2f4lg-0mLgqf_L21T5KHRu4NjKyg)**.
+Here is one more reminder. **We launched a Slack workspace for CETC2020!** The idea is to use Slack as an imperfect substitute to regular "offline" conversations in a conference. You can join the CETC2020 Slack workspace from **[this link](https://join.slack.com/t/cetctalk/shared_invite/zt-dtk2f4lg-0mLgqf_L21T5KHRu4NjKyg)**.
 
 We would also appreciate any suggestions for improving the conference, especially how to promote informal discussions. You can post your suggestions on the CETC Slack workspace.
 
