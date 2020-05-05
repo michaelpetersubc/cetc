@@ -45,8 +45,10 @@ Mariann Ollar* (University of Edinburgh), Antonio Penta (Pompeu Fabra University
 Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (Leavey School of Business),  
  Roland Strausz (Humboldt-Universität zu Berlin)
 1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/)  
-  	Anne-Katrin Roesler* (University of Toronto), Doron Ravid (University of Chicago),  
+  	Anne-Katrin Roesler (University of Toronto), Doron Ravid* (University of Chicago),  
    Balázs Szentes (London School of Economics)
+
+**Note:** *The presenter of "Learning Before Trading: On The Inefficiency of Ignoring Free Information." is changed to Doron Ravid (University of Chicago).*
 
 ### Break: 9:40am - 10am
 
