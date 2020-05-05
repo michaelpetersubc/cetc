@@ -1,6 +1,6 @@
 Dear Participants of CETC 2020,
 
-Thank you very much for registrating the 2020 Canadian Economic Theory Conference. The conference will be held this weekend, on Friday May 8th and Saturday 9th. We are looking forward to (virtually) seeing you soon.
+Thank you very much for registering the 2020 Canadian Economic Theory Conference. The conference will be held this weekend, on Friday May 8th and Saturday 9th. We are looking forward to (virtually) seeing you soon.
 
 The conference program can be found [here](https://michaelpetersubc.github.io/cetc/2020/conference_program).
 * The conference will be held as a Zoom webinar.
