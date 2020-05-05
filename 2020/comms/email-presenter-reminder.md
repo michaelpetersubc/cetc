@@ -29,8 +29,6 @@ Meeting ID: 864 6618 4298
 
 Password: 184153
 
-To join the parallel coffee session without quitting the webinar, you need to enable "Join different meetings simultaneously on desktop." This seems only allowed to people who have a **paid** Zoom account. For the prerequistes and operations, please read [the official guide of Zoom](https://support.zoom.us/hc/en-us/articles/360001120743-Join-Multiple-Meetings-Simultaneously-on-Desktop).
-
 As we are not perfectly sure whether a parallel coffee session is useful, we only open it on Day 1 (Friday, May 8th). After the conference is over, we will ask you to make some feedback, and try to incorporate your opinion into the organization of future conferences.
 
 
