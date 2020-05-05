@@ -15,6 +15,15 @@ The conference program can be found [here](https://michaelpetersubc.github.io/ce
 
 For those not familiar with Slack: it is a collaboration hub that can replace e-mail. Compared with e-mail or social networking platforms (e.g. Facebook, Twitter, LinkedIn), Slack is designed for professional communications. For example, it is easier to make a "channel" (a chat group for talking about a specific issue). [Here](https://slack.com/intl/en-ca/help/articles/115004071768-What-is-Slack-) is Slack's official guide. Once you join the CETC slack, you can access through your browser and, preferrably, the Slack application.
 
+We would also appreciate any suggestions for improving our first online conference, especially with regard to how to promote informal discussions in the Slack workspace.
+
 We are looking forward to the conference.
 
 Organizing team - 2020 CETC
+Vitor Farinha Luz
+Li, Hao
+Wei Li
+Shunya Noda
+Michael Peters
+Sergei Severinov
+Clemens Possnig
