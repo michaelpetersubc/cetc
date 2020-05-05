@@ -29,6 +29,7 @@ All participants in a Zoom webinar are divided into three roles by the platform:
 * Panelists: all conference presenters and organizers.
   * Can share their webcam and speak at any moment.
   * Can type answers to any question submitted by attendees in Q&A field.
+  * **New:** Conference presenters can also request promoting their co-authors to panelists. If you need, send a request to the moderator (host) of your session.
 * Attendees: anyone else.
   * Can only submit questions in the Q&A field and participate in the chat.
   * Cannot share their screen and can only speak if allowed by moderator.
