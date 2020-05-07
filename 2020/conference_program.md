@@ -97,7 +97,7 @@ All listed times are in Pacific Standard Time zone (PDT).
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
 1. 7:40am - 8:20am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
 Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
-1. 8:20am - 9am [Viral Social Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3299129) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Yangbo_Song.pdf)
+1. 8:20am - 9am [Viral Social Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3299129) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Yangbo_Song.pdf)  
 Yangbo Song* (Chinese University of Hong Kong), David McAdams (Fuqua School of Business)
 1. 9am - 9:40am [Information acquisition and time-risk preference](http://weijiezhong.com/)  
 Weijie Zhong* (Yale University)
@@ -106,7 +106,7 @@ Weijie Zhong* (Yale University)
 
 ### Session B: 10am - 12pm <a name = "Day2SessionB"></a>
 #### Moderator: Shunya Noda
-1. 10am - 10:40am [Dynamic Privacy Choices](http://shotaichi.weebly.com/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Shota_Ichihashi.pdf)
+1. 10am - 10:40am [Dynamic Privacy Choices](http://shotaichi.weebly.com/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Shota_Ichihashi.pdf)  
 Shota Ichihashi* (Bank of Canada)
 1. 10:40am - 11:20am [Voluntary Disclosure and Personalized Pricing](https://nageebali.wordpress.com/)  
 S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shoshana Vasserman (Stanford University)
