@@ -42,7 +42,7 @@ Mariann Ollar* (University of Edinburgh), Antonio Penta (Pompeu Fabra University
 1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/)  
 Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (Leavey School of Business),  
  Roland Strausz (Humboldt-Universität zu Berlin)
-1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/)  
+1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/) [\[Slide\]](https://www.dropbox.com/s/dio79g05zrfbnbd/2020-05-07-learning-CETC.pdf?dl=0)  
   	Anne-Katrin Roesler (University of Toronto), Doron Ravid* (University of Chicago),  
    Balázs Szentes (London School of Economics)
 
