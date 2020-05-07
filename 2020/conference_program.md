@@ -56,7 +56,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
 1. 10:40am - 11:20am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
 Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
-1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main)  
+1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main) [\[Slide\]](2020/Tom_Wiseman.pdf)  
 Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
 
 **Note:** *"A Search Model of Statistical Discrimination" by Peter Norman is moved to [Session B of May 9th](#Day2SessionB).*
