@@ -70,7 +70,7 @@ Alexander Maslov* (Kennesaw State University), Jesse A. Schwartz (Kennesaw State
 1. 1pm - 1:40pm [Designing and Pricing Certificates](http://personal.psu.edu/nuh47/) [\[Slide\]](http://www.personal.psu.edu/nuh47/slides/certificates.pdf)  
 S. Nageeb Ali (Penn State University), Nima Haghpanah* (Penn State University),  
 Ron Siegel (Penn State University), Xiao Lin (Penn State University)
-1. 1:40pm - 2:20pm [Optimal Rating Design](http://www.shourideh.com)  
+1. 1:40pm - 2:20pm [Optimal Rating Design](http://www.shourideh.com) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Ali_Shourideh.pdf)  
 Ali Shourideh* (Carnegie Mellon University), Maryam Saeedi (Carnegie Mellon University)
 1. 2:20pm - 3pm [Persuasion with Unknown Beliefs](https://scholar.princeton.edu/svetlanakosterina/)  
 Svetlana Kosterina* (Princeton University)
