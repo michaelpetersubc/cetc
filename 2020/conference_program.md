@@ -34,7 +34,7 @@ All listed times are in Pacific Daylight Time zone (PDT).
 
 ### Session A: 7am - 9:40am 
 #### Moderator: Vitor Farinha Luz
-1. 7am-7:40am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers)  
+1. 7am-7:40am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/George_Georgiadis.pdf)  
 George Georgiadis* (Kellogg School of Management), Daniel F. Garrett (Toulouse School of Economics),  
  Alex Smolin (Toulouse School of Economics), Balázs Szentes (London School of Economics)
 1. 7:40am - 8:20am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/)  
@@ -52,7 +52,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 
 ### Session B: 10am - 12pm <a name = "Day1SessionB"></a>
 #### Moderator: Vitor Farinha Luz
-1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag)  
+1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Gabor_Virag.pdf)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
 1. 10:40am - 11:20am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
 Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
@@ -67,7 +67,7 @@ Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of 
 #### Moderator: Sergei Severinov
 1. 12:20pm - 1pm [Imperfect Competition in Online Auctions with Sequential Entry](	http://sites.google.com/view/alexander-maslov)  
 Alexander Maslov* (Kennesaw State University), Jesse A. Schwartz (Kennesaw State University)
-1. 1pm - 1:40pm [Designing and Pricing Certificates](http://personal.psu.edu/nuh47/)  
+1. 1pm - 1:40pm [Designing and Pricing Certificates](http://personal.psu.edu/nuh47/) [\[Slide\]](http://www.personal.psu.edu/nuh47/slides/certificates.pdf)  
 S. Nageeb Ali (Penn State University), Nima Haghpanah* (Penn State University),  
 Ron Siegel (Penn State University), Xiao Lin (Penn State University)
 1. 1:40pm - 2:20pm [Optimal Rating Design](http://www.shourideh.com)  
@@ -81,7 +81,7 @@ Svetlana Kosterina* (Princeton University)
 #### Moderator: Sergei Severinov
 1. 3:20pm - 4pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/)  
 Harry Pei* (Northwestern University)
-1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/)  
+1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/) [\[Slide\]](https://hanzhezhang.github.io/research/1709ReputationalUltimatum_slides.pdf)  
 Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
 1. 4:40pm - 5:20pm [Label the Divorced: A Repeated-Game Analysis on (Re)Marriage Market](https://www.yimeng-zhang.com/)  
 Yuk-fai Fong (The University of Hong Kong), Xiaoxiao Hu (Wuhan University), Xiaoxuan Meng (The University of Hong Kong), Yimeng Zhang* (The University of Hong Kong)
