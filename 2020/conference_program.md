@@ -39,7 +39,7 @@ George Georgiadis* (Kellogg School of Management), Daniel F. Garrett (Toulouse S
  Alex Smolin (Toulouse School of Economics), Balázs Szentes (London School of Economics)
 1. 7:40am - 8:20am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/)  
 Mariann Ollar* (University of Edinburgh), Antonio Penta (Pompeu Fabra University)
-1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/)  
+1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/) [\[Slide\]](https://www.dropbox.com/s/2515vj8m1mm8w7l/CETC_MariannOllar_May7_2020.pdf?dl=0) 
 Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (Leavey School of Business),  
  Roland Strausz (Humboldt-Universität zu Berlin)
 1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/) [\[Slide\]](https://www.dropbox.com/s/dio79g05zrfbnbd/2020-05-07-learning-CETC.pdf?dl=0)  
