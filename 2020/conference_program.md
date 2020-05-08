@@ -110,7 +110,7 @@ Weijie Zhong* (Yale University)
 Shota Ichihashi* (Bank of Canada)
 1. 10:40am - 11:20am [Voluntary Disclosure and Personalized Pricing](https://nageebali.wordpress.com/)  
 S. Nageeb Ali* (Penn State University), Gregory Lewis (Microsoft Research), Shoshana Vasserman (Stanford University)
-1. 11:20am - 12pm [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645)  
+1. 11:20am - 12pm [A Search Model of Statistical Discrimination](https://arxiv.org/abs/2004.06645) [\[Slide\]](https://www.dropbox.com/s/sgskv7d16czgplb/Norman%20a_search_model_of_statistical_discrimination-20.pdf?dl=0)  
 Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
 
 **Note:** *"Mechanism Design with Blockchain Enforcement" by Shunya Noda is moved to [Session B of May 8th](#Day1SessionB).*
