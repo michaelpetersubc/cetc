@@ -79,7 +79,7 @@ Svetlana Kosterina* (Princeton University)
   
 ### Session D: 3:20pm - 5:20pm 
 #### Moderator: Sergei Severinov
-1. 3:20pm - 4pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/)  
+1. 3:20pm - 4pm [Repeated Communication with Private Lying Cost](https://sites.northwestern.edu/harrypei/research/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Harry_Pei.pdf)    
 Harry Pei* (Northwestern University)
 1. 4pm - 4:40pm [Reputational Bargaining in the Shadow of the Law](http://hanzhezhang.github.io/) [\[Slide\]](https://hanzhezhang.github.io/research/1709ReputationalUltimatum_slides.pdf)  
 Hanzhe Zhang* (Michigan State University), Mehmet Ekmekci (Boston College)
