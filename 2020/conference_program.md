@@ -37,9 +37,9 @@ All listed times are in Pacific Daylight Time zone (PDT).
 1. 7am-7:40am [Optimal Project Design](https://www.kellogg.northwestern.edu/faculty/georgiadis/index.html#workingpapers) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/George_Georgiadis.pdf)  
 George Georgiadis* (Kellogg School of Management), Daniel F. Garrett (Toulouse School of Economics),  
  Alex Smolin (Toulouse School of Economics), Balázs Szentes (London School of Economics)
-1. 7:40am - 8:20am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/)  
+1. 7:40am - 8:20am 	[Implementation via Transfers: Identical but Unknown Distributions](https://sites.google.com/site/omariann/) [\[Slide\]](https://www.dropbox.com/s/2515vj8m1mm8w7l/CETC_MariannOllar_May7_2020.pdf?dl=0)  
 Mariann Ollar* (University of Edinburgh), Antonio Penta (Pompeu Fabra University)
-1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/) [\[Slide\]](https://www.dropbox.com/s/2515vj8m1mm8w7l/CETC_MariannOllar_May7_2020.pdf?dl=0) 
+1. 8:20am - 9am [Public Good Overprovision by a Manipulative Provider](https://sites.google.com/site/gorkemcelikswebsite/) 
 Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (Leavey School of Business),  
  Roland Strausz (Humboldt-Universität zu Berlin)
 1. 9am - 9:40am [Learning Before Trading: On The Inefficiency of Ignoring Free Information](https://sites.google.com/site/akroesler/) [\[Slide\]](https://www.dropbox.com/s/dio79g05zrfbnbd/2020-05-07-learning-CETC.pdf?dl=0)  
