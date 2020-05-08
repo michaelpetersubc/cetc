@@ -54,7 +54,7 @@ Gorkem Celik* (ESSEC Business School and THEMA Research Center), Dongsoo Shin (L
 #### Moderator: Vitor Farinha Luz
 1. 10am - 10:40am [Who wants to be an auctioneer?](https://www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Virag) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Gabor_Virag.pdf)  
 Gabor Virag* (University of Toronto), Sergei Severinov (University of British Columbia)
-1. 10:40am - 11:20am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512)  
+1. 10:40am - 11:20am [Mechanism Design with Blockchain Enforcement](https://ssrn.com/abstract=3554512) [\[Slide\]](https://drive.google.com/file/d/1CJjcOCzbJ_24uDe3UV1reTl_h1MbBABq/view?usp=sharing)  
 Hitoshi Matsushima (University of Tokyo), Shunya Noda* (University of British Columbia)
 1. 11:20am - 12pm [How to Sell in a Sequential Auction Market](https://ssc.wisc.edu/~hendrick/#main) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/Tom_Wiseman.pdf)  
 Ken Hendricks (University of Wisconsin-Madison), Thomas Wiseman* (University of Texas at Austin)
