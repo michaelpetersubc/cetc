@@ -93,7 +93,7 @@ All listed times are in Pacific Standard Time zone (PDT).
 
 ### Session A: 7am - 9:40am
 #### Moderator: Shunya Noda
-1. 7am - 7:40am [Coordination on networks](https://zhoujunjie.weebly.com/)  
+1. 7am - 7:40am [Coordination on networks](https://zhoujunjie.weebly.com/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/David_Walker_Jones.pdf)    
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
 1. 7:40am - 8:20am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
 Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
