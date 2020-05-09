@@ -93,7 +93,7 @@ All listed times are in Pacific Standard Time zone (PDT).
 
 ### Session A: 7am - 9:40am
 #### Moderator: Shunya Noda
-1. 7am - 7:40am [Coordination on networks](https://zhoujunjie.weebly.com/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/David_Walker_Jones.pdf)    
+1. 7am - 7:40am [Coordination on networks](https://zhoujunjie.weebly.com/)   
 Matthew Leister (Monash University), Yves Zenou (Monash University), Junjie Zhou* (National University of Singapore)
 1. 7:40am - 8:20am [Constrained Preference Elicitation](http://web.econ.ohio-state.edu/azrieli/)  
 Yaron Azrieli* (The Ohio State University), Christopher Chambers (Georgetown University), Paul Healy (The Ohio State University)
@@ -122,7 +122,7 @@ Peter Norman* (UNC Chapel Hill), Jiadong Gu (UNC Chapel Hill)
 #### Moderator: Michael Peters
 1. 12:20pm - 1pm [Behavioral Neural Networks](https://sites.google.com/site/shaoweike/research)  
 Shaowei Ke* (University of Michigan), Chen Zhao (University of Hong Kong), Zhaoran Wang (Northwestern University), Sung-Lin Hsieh (University of Michigan)
-1. 1pm - 1:40pm [Rational Inattention and Perceptual Distance](https://www.dwalkerjones.com/)  
+1. 1pm - 1:40pm [Rational Inattention and Perceptual Distance](https://www.dwalkerjones.com/) [\[Slide\]](https://michaelpetersubc.github.io/cetc/2020/David_Walker_Jones.pdf)   
 David Elliot Walker-Jones* (University of Toronto)
 1. 1:40pm - 2:20pm [Delegating Learning](https://sites.google.com/view/qiaoxi/)  
 Juan F Escobar (University of Chile), Qiaoxi Zhang* (University of Chile)
