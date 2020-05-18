@@ -1,0 +1,930 @@
+---
+title: "CETC-2020 Report"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 10000)
+```
+
+```{r setup, include=FALSE}
+{
+  
+  library(readxl)
+  library(plyr)
+  library(epiR)
+  library(biogeo)
+  library(geosphere)
+  library(readxl)
+  require(ggeffects)
+  require(sjPlot)
+  require(sjlabelled)
+  require(sjmisc)
+  require(ggplot2)
+  require(ggpubr)
+  require(tidyverse)
+  require(lfe)
+  require(stargazer)
+  library(sf)
+  library(rnaturalearth)
+  library(rnaturalearthdata)
+  library(maps)
+  library(tools)
+  library(ggthemes)
+  library(ggmap)
+  library(geonames)
+  library(ggrepel)
+  library(mlogit)
+  library(glmnet)
+  library(grid)
+  library(gridExtra)
+  library(reshape)
+  library(reshape2)
+  library(data.table)
+  library(chron)
+  
+  set_theme(
+    geom.outline.color = "antiquewhite4",
+    geom.outline.size = 1,
+    geom.label.size = 2,
+    geom.label.color = "grey50",
+    geom.errorbar.size = 0.2,
+    geom.errorbar.linetype = 2,
+    title.color = "red",
+    title.size = 1.5,
+    axis.angle.x = 0,
+    axis.textcolor = "blue",
+    base = theme_bw()
+  )
+  
+}
+```
+
+# Cleaning the Data
+
+```{r, message=FALSE, warning=FALSE}
+##CONSTRUCTING THE DATA_FRAME
+
+  directory_name<-"C:/Users/HP/Documents/CETC RA/"
+
+  start_time_usr1<-"6:30:00"
+  end_time_usr1<-"17:30:00"
+  
+  start_time_usr2<-"6:30:00"
+  end_time_usr2<-"17:30:00"
+  
+  day1<-"2020-05-08"
+  day2<-"2020-05-09"
+  
+  
+  duration_d1<-(-chron(times. = start_time_usr1)+chron(times. = end_time_usr1))*24*60
+  duration_d2<-(-chron(times. = start_time_usr2)+chron(times. = end_time_usr2))*24*60
+  
+  
+    
+  Attendee_Report<-read_csv(paste0(directory_name,"Anonymous_attendee"),col_names = TRUE,col_types = cols(X1 = col_skip()))
+  Panelist_Report<-read_csv(paste0(directory_name,"Anonymous_panelist"),col_names = TRUE,col_types = cols(X1 = col_skip()))
+  
+  
+  #Starting and Ending time of attendence for each attendee
+  
+  jntm<-str_split_fixed(Attendee_Report$`Join Time`," ", n = 4)
+  Attendee_Report$time_start<-chron(times. =format(strptime(jntm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  Attendee_Report$dt_talk<-paste0(jntm[,1]," ",jntm[,2]," ",jntm[,3])
+  Attendee_Report$dt_talk<- as.Date(Attendee_Report$dt_talk, "%B %d, %Y")
+  
+  Attendee_Report$day<-character(length(Attendee_Report$Attended))
+  
+  Attendee_Report[is.na(Attendee_Report$dt_talk),"dt_talk"]<-as.Date("Jan 01, 1900","%B %d, %Y")
+  
+  Attendee_Report[Attendee_Report$dt_talk==as.Date(day1, "%Y-%m-%d"),"day"]<-"Day1"
+  
+  Attendee_Report[Attendee_Report$dt_talk==as.Date(day2, "%Y-%m-%d"),"day"]<-"Day2"
+  
+  
+  lvtm<-str_split_fixed(Attendee_Report$`Leave Time`, " ", n = 4)
+  
+  Attendee_Report$time_end<-chron(times. =format(strptime(lvtm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  Attendee_Report$attn_time<-chron(times. =format(strptime(lvtm[,4],"%H:%M:%S"),"%H:%M:%S"))-chron(times. =format(strptime(jntm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  #Starting and Ending time of attendence for each Panelist
+  
+  jntm<-str_split_fixed(Panelist_Report$Join.Time," ", n = 4)
+  Panelist_Report$time_start<-chron(times. =format(strptime(jntm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  Panelist_Report$dt_talk<-paste0(jntm[,1]," ",jntm[,2]," ",jntm[,3])
+  Panelist_Report$dt_talk<- as.Date(Panelist_Report$dt_talk, "%B %d, %Y")
+  
+  Panelist_Report$day<-character(length(Panelist_Report$Attended))
+  
+  Panelist_Report[is.na(Panelist_Report$dt_talk),"dt_talk"]<-as.Date("Jan 01, 1900","%B %d, %Y")
+  
+  Panelist_Report[Panelist_Report$dt_talk==as.Date(day1, "%Y-%m-%d"),"day"]<-"Day1"
+  
+  Panelist_Report[Panelist_Report$dt_talk==as.Date(day2, "%Y-%m-%d"),"day"]<-"Day2"
+  
+  
+  
+  
+  lvtm<-str_split_fixed(Panelist_Report$Leave.Time, " ", n = 4)
+  
+  Panelist_Report$time_end<-chron(times. =format(strptime(lvtm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  Panelist_Report$attn_time<-chron(times. =format(strptime(lvtm[,4],"%H:%M:%S"),"%H:%M:%S"))-chron(times. =format(strptime(jntm[,4],"%H:%M:%S"),"%H:%M:%S"))
+  
+  
+  
+  
+  
+  min_vec_d1<-data.frame(time=chron(times. = start_time_usr1)+(0:(as.integer(duration_d1)+2))/(24*60))
+  
+  min_vec_d2<-data.frame(time=chron(times. = start_time_usr2)+(0:(as.integer(duration_d2)+2))/(24*60))
+```
+
+# Time Series of Attendance: Attendee vs Panelists
+
+```{r, message=FALSE, warning=FALSE}
+
+for_plot_d1<-merge(Attendee_Report[Attendee_Report$day=="Day1",],min_vec_d1,all = T) %>%
+    mutate( present = ifelse(time_start<=time & time_end>= time, 1,0)) %>%
+    mutate( present = ifelse(is.na(time_start),0,present)) %>%
+    group_by(time) %>%
+    summarize(tot_present=sum(present)) %>%
+    mutate( keep=ifelse(time >=chron(times. ="6:50:00") &
+                          time<= chron(times. ="17:30:00") , 
+                        1, 0),
+            type="Attendee")
+  
+  for_plot_p_d1<-merge(Panelist_Report[Panelist_Report$day=="Day1",],min_vec_d1,all = T) %>%
+    mutate( present = ifelse(time_start<=time & time_end>= time, 1,0)) %>%
+    mutate( present = ifelse(is.na(time_start),0,present)) %>%
+    group_by(time) %>%
+    summarize(tot_present=sum(present)) %>%
+    mutate( keep=ifelse(time >=chron(times. ="6:50:00") &
+                                              time<= chron(times. ="17:30:00") , 
+                                            1, 0),
+            type="Panelist")
+
+  for_plot_d1<-rbind(for_plot_d1,for_plot_p_d1)
+  for_plot_d1<-for_plot_d1[for_plot_d1$keep==1,]
+  
+  
+  for_plot_d2<-merge(Attendee_Report[Attendee_Report$day=="Day2",],min_vec_d2,all = T) %>%
+    mutate( present = ifelse(time_start<=time & time_end>= time, 1,0)) %>%
+    mutate( present = ifelse(is.na(time_start),0,present)) %>%
+    group_by(time) %>%
+    summarize(tot_present=sum(present)) %>%
+    mutate( keep=ifelse(time >=chron(times. ="6:50:00") &
+                          time<= chron(times. ="17:30:00") , 
+                        1, 0),
+            type="Attendee")
+  
+  for_plot_p_d2<-merge(Panelist_Report[Panelist_Report$day=="Day2",],min_vec_d2,all = T) %>%
+    mutate( present = ifelse(time_start<=time & time_end>= time, 1,0)) %>%
+    mutate( present = ifelse(is.na(time_start),0,present)) %>%
+    group_by(time) %>%
+    summarize(tot_present=sum(present)) %>%
+    mutate( keep=ifelse(time >=chron(times. ="6:50:00") &
+                          time<= chron(times. ="17:30:00") , 
+                        1, 0),
+            type="Panelist")
+  
+  for_plot_d2<-rbind(for_plot_d2,for_plot_p_d2)
+  for_plot_d2<-for_plot_d2[for_plot_d2$keep==1,]
+  
+  
+  P1<-ggplot(data = for_plot_d1,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),y=tot_present,color=type))+
+    geom_line(size=1.5)+labs(x="Time",y="Total Number of Attendees")+
+    scale_color_manual(name="",values = c("Panelist"="darkgreen","Attendee"="blue3"))+
+    labs(title = "Day 1 Time Series")+
+    theme_classic()
+  
+  P2<-ggplot(data = for_plot_d2,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),y=tot_present,color=type))+
+    geom_line(size=1.5)+labs(x="Time",y="Total Number of Attendees")+
+    scale_color_manual(name="",values = c("Panelist"="darkgreen","Attendee"="blue3"))+
+    labs(title = "Day 2 Time Series")+
+    theme_classic()
+  
+  ggarrange(P1,P2,nrow = 2,ncol = 1)
+
+```
+
+# Time Series of Entering, Exiting by Session:
+
+## Attendees
+
+```{r, message=FALSE, warning=FALSE}
+Conf_schedule <- read_csv(paste0(directory_name,"Conf_schedule.csv"), 
+                            col_types = cols(time_end = col_character(), 
+                                             time_start = col_character()))
+  
+  Conf_schedule$tm_st<-as.numeric(chron(times. = Conf_schedule$time_start ))
+  Conf_schedule$tm_en<-as.numeric(chron(times. = Conf_schedule$time_end ))
+  
+  Conf_schedule[1,'Session']<-paste0(Conf_schedule[1,'Session'],"_1")
+  Conf_schedule[2,'Session']<-paste0(Conf_schedule[2,'Session'],"_1")
+  Conf_schedule[3,'Session']<-paste0(Conf_schedule[3,'Session'],"_1")
+  Conf_schedule[4,'Session']<-paste0(Conf_schedule[4,'Session'],"_1")
+  
+  Conf_schedule[5,'Session']<-paste0(Conf_schedule[5,'Session'],"_2")
+  Conf_schedule[6,'Session']<-paste0(Conf_schedule[6,'Session'],"_2")
+  Conf_schedule[7,'Session']<-paste0(Conf_schedule[7,'Session'],"_2")
+  Conf_schedule[8,'Session']<-paste0(Conf_schedule[8,'Session'],"_2")
+  
+  
+  
+  
+  Session_DF<-Attendee_Report %>%
+    mutate(tm_st= as.numeric(time_start),
+           tm_en=as.numeric(time_end)) %>%
+    mutate(A_1= ifelse( tm_st <=as.numeric(Conf_schedule[1,"tm_en"]) & as.numeric(Conf_schedule[1,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[1,"day"]) ,1,0),
+           B_1= ifelse( tm_st <=as.numeric(Conf_schedule[2,"tm_en"]) & as.numeric(Conf_schedule[2,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[2,"day"]),1,0),
+           C_1= ifelse( tm_st <=as.numeric(Conf_schedule[3,"tm_en"]) & as.numeric(Conf_schedule[3,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[3,"day"]),1,0),
+           D_1= ifelse( tm_st <=as.numeric(Conf_schedule[4,"tm_en"]) & as.numeric(Conf_schedule[4,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[4,"day"]),1,0),
+           A_2= ifelse( tm_st <=as.numeric(Conf_schedule[5,"tm_en"]) & as.numeric(Conf_schedule[5,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[5,"day"]),1,0),
+           B_2= ifelse( tm_st <=as.numeric(Conf_schedule[6,"tm_en"]) & as.numeric(Conf_schedule[6,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[6,"day"]),1,0),
+           C_2= ifelse( tm_st <=as.numeric(Conf_schedule[7,"tm_en"]) & as.numeric(Conf_schedule[7,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[7,"day"]),1,0),
+           D_2= ifelse( tm_st <=as.numeric(Conf_schedule[8,"tm_en"]) & as.numeric(Conf_schedule[8,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[8,"day"]),1,0)) %>%
+    melt(id=c("uniq_id","day","time_start","time_end","tm_st","tm_en"), 
+         measure = c("A_1","B_1","C_1","D_1","A_2","B_2","C_2","D_2"),
+         value.name = c("Number"))
+  
+    Session_DF$Session<-Session_DF$variable
+    Session_DF<-Session_DF[Session_DF$Number==1,]
+    
+      
+      
+    Session_DF<-merge(Session_DF,Conf_schedule,by=intersect(c('Session'),c('Session')),all=TRUE) %>%
+      group_by(uniq_id,Session,day.x) %>%
+      summarize(time_start.x=min(time_start.x),time_start.y=min(time_start.y),
+                tm_st.x=min(tm_st.x),tm_st.y=min(tm_st.y),
+                time_end.x=max(time_end.x),time_end.y=max(time_end.y),
+                tm_en.x=max(tm_en.x),tm_en.y=max(tm_en.y))
+  
+    for_plot_d1<-merge(Session_DF[Session_DF$day.x=="Day1",],min_vec_d1,all = T)
+    
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_st.y<=as.numeric(chron(times.=for_plot_d1$time )),]
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_en.y>=as.numeric(chron(times.=for_plot_d1$time )),]
+    
+    for_plot_d1<-for_plot_d1%>%
+      mutate(new_enterant =  ifelse(tm_st.x>=tm_st.y & tm_st.x<=as.numeric(chron(times.=time )), 1,0)) %>%
+      mutate(exit =  ifelse(tm_st.x>=tm_st.y & tm_en.x<=as.numeric(chron(times.=time )), -1,0)) %>%
+      mutate(present = ifelse(tm_st.x<tm_st.y & tm_en.x>=tm_st.y, 1,0))%>%
+      group_by(time,Session,tm_st.y,tm_en.y) %>%
+      summarize(present=sum(present),new_enterant=sum(new_enterant),exit=sum(exit)) 
+    
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_st.y<=chron(times. = for_plot_d1$time) &
+                               for_plot_d1$tm_en.y>=chron(times. = for_plot_d1$time),]
+    
+    for_plot_d1$total<-for_plot_d1$present+for_plot_d1$exit
+    
+    tmp_for_plot_d1<-  melt(for_plot_d1,id=c("time","Session"), 
+           measure = c("exit","new_enterant","total"),
+           value.name = c("Number"))
+    
+    
+    tmp_for_plot_d1$Session<-gsub("_1","",tmp_for_plot_d1$Session) 
+    
+    tmp_for_plot_d1$variable<-gsub("new_enterant","New Attendees",tmp_for_plot_d1$variable) 
+    
+    tmp_for_plot_d1$variable<-gsub("total","Present-Exit",tmp_for_plot_d1$variable) 
+    
+    
+    tmp_for_plot_d1[tmp_for_plot_d1$Number==0 ,"Number"]<-NA
+    
+    
+  
+   P1<- ggplot(data = tmp_for_plot_d1,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                  y=Number,color=variable))+
+      geom_col(data = tmp_for_plot_d1,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                           y=Number,color=variable),size=1.5,alpha=1,fill="white")+
+      scale_color_manual(name="",values = c("exit"="red3","Present-Exit"="blue3","New Attendees"="gray"))+
+     scale_x_datetime(breaks= c(as.POSIXct(x = "7:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                 as.POSIXct(x = "8:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "9:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "10:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "11:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "12:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "13:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "14:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "15:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "16:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "17:00",format = "%H:%M",tz="America/Los_Angeles")),
+                      labels = c("7:00","8:00","9:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00"))+
+      labs(x="Time",y="Count of Attendees")+
+      labs(title = "Day 1 Time Series")+
+      theme_classic()
+   
+   P1<-P1+ facet_grid(cols = vars(Session), scales="free_x")
+   
+   
+   for_plot_d2<-merge(Session_DF[Session_DF$day.x=="Day2",],min_vec_d2,all = T)
+   
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_st.y<=as.numeric(chron(times.=for_plot_d2$time )),]
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_en.y>=as.numeric(chron(times.=for_plot_d2$time )),]
+   
+   for_plot_d2<-for_plot_d2%>%
+     mutate(new_enterant =  ifelse(tm_st.x>=tm_st.y & tm_st.x<=as.numeric(chron(times.=time )), 1,0)) %>%
+     mutate(exit =  ifelse(tm_st.x>=tm_st.y & tm_en.x<=as.numeric(chron(times.=time )), -1,0)) %>%
+     mutate(present = ifelse(tm_st.x<tm_st.y & tm_en.x>=tm_st.y, 1,0))%>%
+     group_by(time,Session,tm_st.y,tm_en.y) %>%
+     summarize(present=sum(present),new_enterant=sum(new_enterant),exit=sum(exit)) 
+   
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_st.y<=chron(times. = for_plot_d2$time) &
+                              for_plot_d2$tm_en.y>=chron(times. = for_plot_d2$time),]
+   
+   for_plot_d2$total<-for_plot_d2$present+for_plot_d2$exit
+   
+   tmp_for_plot_d2<-  melt(for_plot_d2,id=c("time","Session"), 
+                           measure = c("exit","total","new_enterant"),
+                           value.name = c("Number"))
+   
+   tmp_for_plot_d2$Session<-gsub("_2","",tmp_for_plot_d2$Session)
+   
+   tmp_for_plot_d2$variable<-gsub("new_enterant","New Attendees",tmp_for_plot_d2$variable) 
+    
+    tmp_for_plot_d2$variable<-gsub("total","Present-Exit",tmp_for_plot_d2$variable) 
+   
+   tmp_for_plot_d2[tmp_for_plot_d2$Number==0 ,"Number"]<-NA
+   
+   
+   P2<- ggplot(data = tmp_for_plot_d2,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                          y=Number,color=variable))+
+     geom_col(data = tmp_for_plot_d2,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                         y=Number,color=variable),size=1.5,alpha=1,fill="white")+
+     scale_color_manual(name="",values = c("exit"="red3","Present-Exit"="blue3","New Attendees"="gray"))+
+     scale_x_datetime(breaks= c(as.POSIXct(x = "7:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                 as.POSIXct(x = "8:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "9:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "10:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "11:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "12:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "13:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "14:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "15:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "16:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "17:00",format = "%H:%M",tz="America/Los_Angeles")),
+                      labels = c("7:00","8:00","9:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00"))+
+     labs(x="Time",y="Count of Attendees")+
+     labs(title = "Day 2 Time Series")+
+     theme_classic()
+   
+   P2<-P2+ facet_grid(cols = vars(Session), scales="free_x")
+   
+   
+   
+   
+   ggarrange(P1,P2,nrow=2,ncol=1)
+```
+
+
+
+
+## Panelists
+
+
+```{r, message=FALSE, warning=FALSE}
+Conf_schedule <- read_csv(paste0(directory_name,"Conf_schedule.csv"), 
+                            col_types = cols(time_end = col_character(), 
+                                             time_start = col_character()))
+  
+  Conf_schedule$tm_st<-as.numeric(chron(times. = Conf_schedule$time_start ))
+  Conf_schedule$tm_en<-as.numeric(chron(times. = Conf_schedule$time_end ))
+  
+  Conf_schedule[1,'Session']<-paste0(Conf_schedule[1,'Session'],"_1")
+  Conf_schedule[2,'Session']<-paste0(Conf_schedule[2,'Session'],"_1")
+  Conf_schedule[3,'Session']<-paste0(Conf_schedule[3,'Session'],"_1")
+  Conf_schedule[4,'Session']<-paste0(Conf_schedule[4,'Session'],"_1")
+  
+  Conf_schedule[5,'Session']<-paste0(Conf_schedule[5,'Session'],"_2")
+  Conf_schedule[6,'Session']<-paste0(Conf_schedule[6,'Session'],"_2")
+  Conf_schedule[7,'Session']<-paste0(Conf_schedule[7,'Session'],"_2")
+  Conf_schedule[8,'Session']<-paste0(Conf_schedule[8,'Session'],"_2")
+  
+  
+  
+  
+  Session_DF<-Panelist_Report %>%
+    mutate(tm_st= as.numeric(time_start),
+           tm_en=as.numeric(time_end)) %>%
+    mutate(A_1= ifelse( tm_st <=as.numeric(Conf_schedule[1,"tm_en"]) & as.numeric(Conf_schedule[1,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[1,"day"]) ,1,0),
+           B_1= ifelse( tm_st <=as.numeric(Conf_schedule[2,"tm_en"]) & as.numeric(Conf_schedule[2,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[2,"day"]),1,0),
+           C_1= ifelse( tm_st <=as.numeric(Conf_schedule[3,"tm_en"]) & as.numeric(Conf_schedule[3,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[3,"day"]),1,0),
+           D_1= ifelse( tm_st <=as.numeric(Conf_schedule[4,"tm_en"]) & as.numeric(Conf_schedule[4,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[4,"day"]),1,0),
+           A_2= ifelse( tm_st <=as.numeric(Conf_schedule[5,"tm_en"]) & as.numeric(Conf_schedule[5,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[5,"day"]),1,0),
+           B_2= ifelse( tm_st <=as.numeric(Conf_schedule[6,"tm_en"]) & as.numeric(Conf_schedule[6,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[6,"day"]),1,0),
+           C_2= ifelse( tm_st <=as.numeric(Conf_schedule[7,"tm_en"]) & as.numeric(Conf_schedule[7,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[7,"day"]),1,0),
+           D_2= ifelse( tm_st <=as.numeric(Conf_schedule[8,"tm_en"]) & as.numeric(Conf_schedule[8,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[8,"day"]),1,0)) %>%
+    melt(id=c("uniq_id","day","time_start","time_end","tm_st","tm_en"), 
+         measure = c("A_1","B_1","C_1","D_1","A_2","B_2","C_2","D_2"),
+         value.name = c("Number"))
+  
+    Session_DF$Session<-Session_DF$variable
+    Session_DF<-Session_DF[Session_DF$Number==1,]
+    
+      
+      
+    Session_DF<-merge(Session_DF,Conf_schedule,by=intersect(c('Session'),c('Session')),all=TRUE) %>%
+      group_by(uniq_id,Session,day.x) %>%
+      summarize(time_start.x=min(time_start.x),time_start.y=min(time_start.y),
+                tm_st.x=min(tm_st.x),tm_st.y=min(tm_st.y),
+                time_end.x=max(time_end.x),time_end.y=max(time_end.y),
+                tm_en.x=max(tm_en.x),tm_en.y=max(tm_en.y))
+  
+    for_plot_d1<-merge(Session_DF[Session_DF$day.x=="Day1",],min_vec_d1,all = T)
+    
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_st.y<=as.numeric(chron(times.=for_plot_d1$time )),]
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_en.y>=as.numeric(chron(times.=for_plot_d1$time )),]
+    
+    for_plot_d1<-for_plot_d1%>%
+      mutate(new_enterant =  ifelse(tm_st.x>=tm_st.y & tm_st.x<=as.numeric(chron(times.=time )), 1,0)) %>%
+      mutate(exit =  ifelse(tm_st.x>=tm_st.y & tm_en.x<=as.numeric(chron(times.=time )), -1,0)) %>%
+      mutate(present = ifelse(tm_st.x<tm_st.y & tm_en.x>=tm_st.y, 1,0))%>%
+      group_by(time,Session,tm_st.y,tm_en.y) %>%
+      summarize(present=sum(present),new_enterant=sum(new_enterant),exit=sum(exit)) 
+    
+    for_plot_d1<-for_plot_d1[for_plot_d1$tm_st.y<=chron(times. = for_plot_d1$time) &
+                               for_plot_d1$tm_en.y>=chron(times. = for_plot_d1$time),]
+    
+    for_plot_d1$total<-for_plot_d1$present+for_plot_d1$exit
+    
+    tmp_for_plot_d1<-  melt(for_plot_d1,id=c("time","Session"), 
+           measure = c("exit","total","new_enterant"),
+           value.name = c("Number"))
+    
+    tmp_for_plot_d1$variable<-gsub("new_enterant","New Panelists",tmp_for_plot_d1$variable) 
+    
+    tmp_for_plot_d1$variable<-gsub("total","Present-Exit",tmp_for_plot_d1$variable) 
+    
+    
+    tmp_for_plot_d1$Session<-gsub("_1","",tmp_for_plot_d1$Session) 
+    
+    tmp_for_plot_d1[tmp_for_plot_d1$Number==0 ,"Number"]<-NA
+  
+   P1<- ggplot(data = tmp_for_plot_d1,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                  y=Number,color=variable))+
+      geom_col(data = tmp_for_plot_d1,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                           y=Number,color=variable),size=1.5,alpha=1,fill="white")+
+      scale_color_manual(name="",values = c("exit"="red3","Present-Exit"="darkgreen","New Panelists"="gray"))+
+     scale_x_datetime(breaks= c(as.POSIXct(x = "7:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                 as.POSIXct(x = "8:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "9:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "10:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "11:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "12:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "13:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "14:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "15:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "16:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "17:00",format = "%H:%M",tz="America/Los_Angeles")),
+                      labels = c("7:00","8:00","9:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00"))+
+      labs(x="Time",y="Count of Panelists")+
+      labs(title = "Day 1 Time Series")+
+      theme_classic()
+   
+   P1<-P1+ facet_grid(cols = vars(Session), scales="free_x")
+   
+   
+   for_plot_d2<-merge(Session_DF[Session_DF$day.x=="Day2",],min_vec_d2,all = T)
+   
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_st.y<=as.numeric(chron(times.=for_plot_d2$time )),]
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_en.y>=as.numeric(chron(times.=for_plot_d2$time )),]
+   
+   for_plot_d2<-for_plot_d2%>%
+     mutate(new_enterant =  ifelse(tm_st.x>=tm_st.y & tm_st.x<=as.numeric(chron(times.=time )), 1,0)) %>%
+     mutate(exit =  ifelse(tm_st.x>=tm_st.y & tm_en.x<=as.numeric(chron(times.=time )), -1,0)) %>%
+     mutate(present = ifelse(tm_st.x<tm_st.y & tm_en.x>=tm_st.y, 1,0))%>%
+     group_by(time,Session,tm_st.y,tm_en.y) %>%
+     summarize(present=sum(present),new_enterant=sum(new_enterant),exit=sum(exit)) 
+   
+   for_plot_d2<-for_plot_d2[for_plot_d2$tm_st.y<=chron(times. = for_plot_d2$time) &
+                              for_plot_d2$tm_en.y>=chron(times. = for_plot_d2$time),]
+   
+   for_plot_d2$total<-for_plot_d2$present+for_plot_d2$exit
+   
+   tmp_for_plot_d2<-  melt(for_plot_d2,id=c("time","Session"), 
+                           measure = c("exit","total","new_enterant"),
+                           value.name = c("Number"))
+   
+   tmp_for_plot_d2$Session<-gsub("_2","",tmp_for_plot_d2$Session)
+   
+   tmp_for_plot_d2$variable<-gsub("new_enterant","New Panelists",tmp_for_plot_d2$variable) 
+    
+    tmp_for_plot_d2$variable<-gsub("total","Present-Exit",tmp_for_plot_d2$variable) 
+   
+   
+   
+   tmp_for_plot_d2[tmp_for_plot_d2$Number==0 ,"Number"]<-NA
+   
+   P2<- ggplot(data = tmp_for_plot_d2,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                          y=Number,color=variable))+
+     geom_col(data = tmp_for_plot_d2,aes(x=as.POSIXct(x = as.character(time),format = "%H:%M",tz="America/Los_Angeles"),
+                                         y=Number,color=variable),size=1.5,alpha=1,fill="white")+
+     scale_color_manual(name="",values = c("exit"="red3","Present-Exit"="darkgreen","New Panelists"="gray"))+
+     scale_x_datetime(breaks= c(as.POSIXct(x = "7:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                 as.POSIXct(x = "8:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "9:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "10:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "11:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "12:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "13:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "14:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "15:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "16:00",format = "%H:%M",tz="America/Los_Angeles"),
+                                as.POSIXct(x = "17:00",format = "%H:%M",tz="America/Los_Angeles")),
+                      labels = c("7:00","8:00","9:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00"))+
+     labs(x="Time",y="Count of Panelists")+
+     labs(title = "Day 2 Time Series")+
+     theme_classic()
+   
+   P2<-P2+ facet_grid(cols = vars(Session), scales="free_x")
+   
+   
+   
+   
+   ggarrange(P1,P2,nrow=2,ncol=1)
+```
+
+
+
+
+
+# Attendance by Session
+
+```{r, message=FALSE, warning=FALSE}
+
+Conf_schedule <- read_csv(paste0(directory_name,"Conf_schedule.csv"), 
+                            col_types = cols(time_end = col_character(), 
+                                             time_start = col_character()))
+  
+
+  Conf_schedule$tm_st<-as.numeric(chron(times. = Conf_schedule$time_start ))
+  Conf_schedule$tm_en<-as.numeric(chron(times. = Conf_schedule$time_end ))
+  
+  
+  
+  Session_DF<-Attendee_Report %>%
+    mutate(tm_st= as.numeric(time_start),
+           tm_en=as.numeric(time_end)) %>%
+    mutate(A_1= ifelse( tm_st <=as.numeric(Conf_schedule[1,"tm_en"]) & as.numeric(Conf_schedule[1,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[1,"day"]) ,1,0),
+           B_1= ifelse( tm_st <=as.numeric(Conf_schedule[2,"tm_en"]) & as.numeric(Conf_schedule[2,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[2,"day"]),1,0),
+           C_1= ifelse( tm_st <=as.numeric(Conf_schedule[3,"tm_en"]) & as.numeric(Conf_schedule[3,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[3,"day"]),1,0),
+           D_1= ifelse( tm_st <=as.numeric(Conf_schedule[4,"tm_en"]) & as.numeric(Conf_schedule[4,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[4,"day"]),1,0),
+           A_2= ifelse( tm_st <=as.numeric(Conf_schedule[5,"tm_en"]) & as.numeric(Conf_schedule[5,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[5,"day"]),1,0),
+           B_2= ifelse( tm_st <=as.numeric(Conf_schedule[6,"tm_en"]) & as.numeric(Conf_schedule[6,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[6,"day"]),1,0),
+           C_2= ifelse( tm_st <=as.numeric(Conf_schedule[7,"tm_en"]) & as.numeric(Conf_schedule[7,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[7,"day"]),1,0),
+           D_2= ifelse( tm_st <=as.numeric(Conf_schedule[8,"tm_en"]) & as.numeric(Conf_schedule[8,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[8,"day"]),1,0)) %>%
+    melt(id=c("uniq_id","day","time_start","time_end"), 
+                   measure = c("A_1","B_1","C_1","D_1","A_2","B_2","C_2","D_2"),
+                   value.name = c("Number")) %>%
+    group_by(uniq_id,day,variable) %>%
+    summarize(attended=max(Number))
+  
+  Session_DF<-Session_DF[Session_DF$attended==1,]
+  
+  
+  Session_DF$variable<-gsub("A_1","A",Session_DF$variable)
+  Session_DF$variable<-gsub("A_2","A",Session_DF$variable)
+  
+  Session_DF$variable<-gsub("B_1","B",Session_DF$variable)
+  Session_DF$variable<-gsub("B_2","B",Session_DF$variable)
+  
+  Session_DF$variable<-gsub("C_1","C",Session_DF$variable)
+  Session_DF$variable<-gsub("C_2","C",Session_DF$variable)
+  
+  Session_DF$variable<-gsub("D_1","D",Session_DF$variable)
+  Session_DF$variable<-gsub("D_2","D",Session_DF$variable)
+  
+  
+  Session_DF2<-Panelist_Report %>%
+    mutate(tm_st= as.numeric(time_start),
+           tm_en=as.numeric(time_end)) %>%
+    mutate(A_1= ifelse( tm_st <=as.numeric(Conf_schedule[1,"tm_en"]) & as.numeric(Conf_schedule[1,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[1,"day"]) ,1,0),
+           B_1= ifelse( tm_st <=as.numeric(Conf_schedule[2,"tm_en"]) & as.numeric(Conf_schedule[2,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[2,"day"]),1,0),
+           C_1= ifelse( tm_st <=as.numeric(Conf_schedule[3,"tm_en"]) & as.numeric(Conf_schedule[3,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[3,"day"]),1,0),
+           D_1= ifelse( tm_st <=as.numeric(Conf_schedule[4,"tm_en"]) & as.numeric(Conf_schedule[4,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[4,"day"]),1,0),
+           A_2= ifelse( tm_st <=as.numeric(Conf_schedule[5,"tm_en"]) & as.numeric(Conf_schedule[5,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[5,"day"]),1,0),
+           B_2= ifelse( tm_st <=as.numeric(Conf_schedule[6,"tm_en"]) & as.numeric(Conf_schedule[6,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[6,"day"]),1,0),
+           C_2= ifelse( tm_st <=as.numeric(Conf_schedule[7,"tm_en"]) & as.numeric(Conf_schedule[7,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[7,"day"]),1,0),
+           D_2= ifelse( tm_st <=as.numeric(Conf_schedule[8,"tm_en"]) & as.numeric(Conf_schedule[8,"tm_st"]) <=tm_en & day==as.character(Conf_schedule[8,"day"]),1,0)) %>%
+    melt(id=c("uniq_id","day","time_start","time_end"), 
+         measure = c("A_1","B_1","C_1","D_1","A_2","B_2","C_2","D_2"),
+         value.name = c("Number")) %>%
+    group_by(uniq_id,day,variable) %>%
+    summarize(attended=max(Number))
+  
+  
+  Session_DF2<-Session_DF2[Session_DF2$attended==1,]
+  
+  
+  Session_DF2$variable<-gsub("A_1","A",Session_DF2$variable)
+  Session_DF2$variable<-gsub("A_2","A",Session_DF2$variable)
+  
+  Session_DF2$variable<-gsub("B_1","B",Session_DF2$variable)
+  Session_DF2$variable<-gsub("B_2","B",Session_DF2$variable)
+  
+  Session_DF2$variable<-gsub("C_1","C",Session_DF2$variable)
+  Session_DF2$variable<-gsub("C_2","C",Session_DF2$variable)
+  
+  Session_DF2$variable<-gsub("D_1","D",Session_DF2$variable)
+  Session_DF2$variable<-gsub("D_2","D",Session_DF2$variable)
+  
+  Session_DF$type="Attendee"
+  Session_DF2$type="Panelists"
+  
+  P1<-ggplot(data = rbind(Session_DF,Session_DF2))+
+    geom_bar(aes(x=as.character(variable),fill=type),,color="white",position = "dodge")+
+    scale_fill_manual(name="",values = c("Attendee"="blue3","Panelists"="darkgreen"))+
+    labs(title = "Conference Session-wise Attendance",x="Conference Session")+
+    theme_classic()
+  
+  P1+ facet_grid(cols = vars(day))
+
+```
+
+
+
+
+
+# Participation by Country
+
+```{r, message=FALSE, warning=FALSE}
+
+for_table<- Attendee_Report %>%
+    mutate(registered =1) %>%
+    mutate(attended = ifelse( Attended =="Yes",1,0)) %>%
+    group_by(uniq_id) %>%
+    summarize(Registered=max(registered),Attended=max(attended)) %>%
+    mutate(Attended= ifelse(Attended>1,1,Attended)) %>%
+    mutate(Registered= ifelse(Registered>1,1,Registered)) 
+  
+  
+  for_table<-for_table[!is.na(for_table$uniq_id),]
+  
+  for_table<-merge(for_table,
+                   unique(Attendee_Report[!is.na(Attendee_Report$`Country/Region`),c("uniq_id",'Country/Region')]),
+                   all.x = TRUE)
+  for_table<-merge(for_table,
+                   unique(Attendee_Report[!is.na(Attendee_Report$Organization),c("uniq_id",'Organization')]),
+                   all.x = TRUE)
+  
+  
+  for_table2<- setDT( for_table )%>%
+    mutate(Organization=ifelse(is.na(Organization),"Not Provided",Organization)) %>%
+    mutate(`Country/Region`=ifelse(is.na(`Country/Region`),"Not Provided",`Country/Region`)) %>%
+    reshape2::melt(id=c("uniq_id","Organization","Country/Region"), 
+                   measure = c("Attended","Registered"),
+                   value.name = c("Number")) %>%
+    as.data.frame()
+  
+  fotab<- for_table %>%
+    summarize(Registered=sum(Registered),Attended=sum(Attended))
+  
+  for_table$`Country/Region`<-gsub("Canada","CA",for_table$`Country/Region`)
+  
+  fotab2<- for_table %>%
+    group_by(`Country/Region`) %>%
+    summarize(Registered=sum(Registered),Attended=sum(Attended)) %>%
+    mutate(`Country/Region`=ifelse(is.na(`Country/Region`),"Not Provided",`Country/Region`)) %>%
+    mutate(`Country/Region`=ifelse(Registered<=5,"Others",`Country/Region`)) %>%
+    group_by(`Country/Region`) %>%
+    summarize(Registered=sum(Registered),Attended=sum(Attended)) %>%
+    reshape2::melt(id=c("Country/Region"), 
+                   measure = c("Attended","Registered"),
+                   value.name = c("Number")) %>%
+    as.data.frame()
+  
+  P1<-ggplot(data = fotab2)+
+    geom_col(aes(x=`Country/Region`,y=Number,fill=variable),position = "dodge",color="white")+
+    scale_fill_manual(values = c("Attended"="blue3","Registered"="gray"))+
+    coord_flip()+
+    labs(title = "Attendees by Country",y="Number of Attendees",x="Country")+
+    theme_classic()
+  
+  
+  fotab2_P<- Panelist_Report %>%
+    mutate(registered =1) %>%
+    mutate(attended = ifelse( Attended =="Yes",1,0)) %>%
+    group_by(uniq_id) %>%
+    summarize(Registered=max(registered),Attended=max(attended)) %>%
+    merge(unique(Panelist_Report[!is.na(Panelist_Report$Country.Region.Name),c("uniq_id",'Country.Region.Name')]),
+          all.x = TRUE) %>%
+    group_by(Country.Region.Name) %>%
+    summarize(Registered=sum(Registered),Attended=sum(Attended)) %>%
+    group_by(Country.Region.Name) %>%
+    summarize(Panelist=sum(Attended)) 
+    
+  P2<-ggplot(data = fotab2_P)+
+    geom_col(aes(x=Country.Region.Name,y=Panelist),fill="darkgreen",position = "dodge",color="white")+
+    coord_flip()+
+    labs(title = "Panelists by Country",y="Number of Panelists",x="Country")+
+    theme_classic()
+    
+    
+  
+  fotab$Percentage<-signif(fotab$Attended/fotab$Registered*100,digits = 2)
+    
+  fotab$Panelists<-sum(fotab2_P$Panelist)
+  
+  tmp<-melt(fotab,measure.vars = c("Registered","Attended","Percentage","Panelists"),value.name=c("Number"))
+  
+  g<-tableGrob(tmp, cols = c("", "Number"),theme = ttheme_minimal())
+  separators <- replicate(ncol(g) - 2,
+                          segmentsGrob(x1 = unit(0, "npc"), gp=gpar(lty=2)),
+                          simplify=FALSE)
+  ## add vertical lines on the left side of columns (after 2nd)
+  g <- gtable::gtable_add_grob(g, grobs = separators,
+                               t = 2, b = nrow(g), l = seq_len(ncol(g)-2)+2)
+  
+  
+  ggarrange(P1,ggarrange(P2,g,nrow=2,ncol=1, heights=c(2,1)),nrow=1,ncol=2,widths =c(1.5,1))
+
+```
+
+
+
+# Attention of Attendees and Panelists
+
+```{r, message=FALSE, warning=FALSE}
+Att_R<-Attendee_Report[!is.na(Attendee_Report$attn_time),]
+  Pan_R<-Panelist_Report[!is.na(Panelist_Report$attn_time),]
+  
+  Pan_R$connect_issue<-0
+  Att_R$connect_issue<-0
+  
+  Att_R[chron(times. = Att_R$attn_time)<1/(24*60)*2,"connect_issue"]<-1  
+  Pan_R[chron(times. = Pan_R$attn_time)<1/(24*60)*2,"connect_issue"]<-1
+  
+  DF_A<-Att_R %>%
+    group_by(uniq_id) %>%
+    summarize(attn_time=sum(attn_time))
+  DF_A$type="Attendee"
+  
+  DF_P<-Pan_R %>%
+    group_by(uniq_id) %>%
+    summarize(attn_time=sum(attn_time))
+  
+  DF_P$type="Panelist"
+  
+  Att_R$type<-"Attendee"
+  Pan_R$type<-"Panelist"
+  
+
+P2<-ggplot()+
+      geom_density(data=rbind(DF_A,DF_P) ,
+                     aes(x=chron(times= attn_time)*24,fill=type),binwidth = 1,color="white",alpha=0.6,position = "stack")+
+  labs(title = "At Individual Level",y="Denisty",x="Number of Hours Attended")+
+  scale_x_continuous(breaks = seq(0,30,5))+
+  scale_fill_manual(name="",values = c("Attendee"="blue3",Panelist="darkgreen"))+
+  theme_classic()
+
+P1<-ggplot()+
+  geom_density(data=rbind(Att_R[,c("attn_time","type")],Pan_R[,c("attn_time","type")]) ,
+               aes(x=chron(times= attn_time)*24,fill=type),binwidth = 1,color="white",alpha=0.6,position = "stack")+
+  labs(title = "At Login Level",y="Denisty",x="Number of Hours Logged-in")+
+  scale_x_continuous(breaks = 0:30)+
+  scale_fill_manual(name="",values = c("Attendee"="blue3",Panelist="darkgreen"))+
+  theme_classic()
+  
+
+ggarrange(P1,P2,nrow=1,ncol = 2)
+```
+
+
+# Duration of Breaks
+
+```{r, message=FALSE, warning=FALSE}
+
+
+Att_R<-Att_R[order(Att_R$day,Att_R$uniq_id,Att_R$time_start),]
+
+Att_R$sess_id<-1:length(Att_R$Attended)
+
+DF_A<-Att_R %>%
+  group_by(uniq_id,day) %>%
+  summarize(num_sess=length(`Time in Session (minutes)`),min_sess_id=min(sess_id)) %>%
+  merge(Att_R)  %>%
+  mutate(sess_id_fin=sess_id-min_sess_id+1)
+  
+
+
+
+tmp<-dcast(setDT(DF_A[DF_A$num_sess<10,c("uniq_id","day",
+                         "sess_id_fin","time_start","time_end","attn_time")]),
+           uniq_id+day~sess_id_fin,
+           value.var=c("time_start", "time_end","attn_time")) %>%
+  as.data.frame() %>%
+  mutate(brk_tm1=time_start_2-time_end_1,
+         brk_tm2=time_start_3-time_end_2,
+         brk_tm3=time_start_4-time_end_3,
+         brk_tm4=time_start_5-time_end_4,
+         brk_tm5=time_start_6-time_end_5,
+         brk_tm6=time_start_7-time_end_6,
+         brk_tm7=time_start_8-time_end_7,
+         brk_tm8=time_start_9-time_end_8,
+         brk_tm9=NA) %>%
+  setDT()%>%
+  melt(id=c("uniq_id","day"),
+       measure = list(c("time_start_1","time_start_2","time_start_3","time_start_4","time_start_5",
+                        "time_start_6","time_start_7","time_start_8","time_start_9"),
+                      c("time_end_1","time_end_2","time_end_3","time_end_4","time_end_5",
+                        "time_end_6","time_end_7","time_end_8","time_end_9"),
+                      c("attn_time_1","attn_time_2","attn_time_3","attn_time_4","attn_time_5",
+                        "attn_time_6","attn_time_7","attn_time_8","attn_time_9"),
+                      c("brk_tm1","brk_tm2","brk_tm3","brk_tm4","brk_tm5",
+                        "brk_tm6","brk_tm7","brk_tm8","brk_tm9")),
+       value.name=c("time_start","time_end","attn_time","brk_time")) %>%
+  as.data.frame()
+
+tmp<-tmp[!is.na(tmp$brk_time),]
+  
+
+Pan_R<-Pan_R[order(Pan_R$day,Pan_R$uniq_id,Pan_R$time_start),]
+
+Pan_R$sess_id<-1:length(Pan_R$Attended)
+
+DF_P<-Pan_R %>%
+  group_by(uniq_id,day) %>%
+  summarize(num_sess=length(Time.in.Session..minutes.),min_sess_id=min(sess_id)) %>%
+  merge(Pan_R)  %>%
+  mutate(sess_id_fin=sess_id-min_sess_id+1)
+
+
+
+
+tmp_P<-dcast(setDT(DF_P[DF_P$num_sess<10,c("uniq_id","day",
+                                           "sess_id_fin","time_start","time_end","attn_time")]),
+             uniq_id+day~sess_id_fin,
+             value.var=c("time_start", "time_end","attn_time")) %>%
+  as.data.frame() %>%
+  mutate(brk_tm1=time_start_2-time_end_1,
+         brk_tm2=time_start_3-time_end_2,
+         brk_tm3=time_start_4-time_end_3,
+         brk_tm4=time_start_5-time_end_4,
+         brk_tm5=time_start_6-time_end_5,
+         brk_tm6=NA)%>%
+  setDT()%>%
+  melt(id=c("uniq_id","day"),
+       measure = list(c("time_start_1","time_start_2","time_start_3",
+                        "time_start_4","time_start_5","time_start_6"),
+                      c("time_end_1","time_end_2","time_end_3",
+                        "time_end_4","time_end_5","time_end_6"),
+                      c("attn_time_1","attn_time_2","attn_time_3",
+                        "attn_time_4","attn_time_5","attn_time_6"),
+                      c("brk_tm1","brk_tm2","brk_tm3",
+                        "brk_tm4","brk_tm5","brk_tm6")),
+       value.name=c("time_start","time_end","attn_time","brk_time")) %>%
+  as.data.frame()
+
+tmp_P<-tmp_P[!is.na(tmp_P$brk_time),]
+
+tmp$type<-"Attendee"
+tmp_P$type<-"Panelists"
+
+tmp_f<-rbind(data.frame(type=tmp$type,brk_time=tmp$brk_time),data.frame(type=tmp_P$type,brk_time=tmp_P$brk_time))
+
+
+
+
+P1<-ggplot()+
+  geom_histogram(data=tmp_f[tmp_f$brk_time>=0 & tmp_f$type=="Attendee",] ,
+               aes(x=brk_time*24*60),binwidth=30,fill="blue3",color="white",alpha=1,position = "identity")+
+  labs(title = "Duration of All Breaks:Attendee",y="Denisty",x="Duration in Minutes")+
+  #scale_fill_manual(values = c("Panelists"="darkgreen","Attendee"="blue3"))
+  scale_x_continuous(breaks = seq(0,max(tmp_f$brk_time)*24*60,45))+
+  theme_classic()
+
+P2<-ggplot()+
+  geom_histogram(data=tmp_f[tmp_f$brk_time>=1/(24*60) & tmp_f$brk_time<=5/24 & tmp_f$type=="Attendee",] ,
+                 aes(x=brk_time*24*60),binwidth=20,fill="blue3",color="white",alpha=1,position = "stack")+
+  labs(title = "Duration of Breaks:Attendee",y="Density",x="Duration in Minutes")+
+  #scale_fill_manual(values = c("Panelists"="darkgreen","Attendee"="blue3"))+
+  scale_x_continuous(breaks = seq(0,220,20),limits = c(-10,240))+
+  theme_classic()
+
+P3<-ggplot()+
+  geom_histogram(data=tmp_f[tmp_f$brk_time>=0 & tmp_f$type=="Panelists",] ,
+                 aes(x=brk_time*24*60),binwidth=30,fill="darkgreen",color="white",alpha=1,position = "identity")+
+  labs(title = "Duration of All Breaks:Panelists",y="Denisty",x="Duration in Minutes")+
+  #scale_fill_manual(values = c("Panelists"="darkgreen","Attendee"="blue3"))
+  scale_x_continuous(breaks = seq(0,max(tmp_f$brk_time)*24*60,45))+
+  theme_classic()
+
+P4<-ggplot()+
+  geom_histogram(data=tmp_f[tmp_f$brk_time>=1/(24*60) & tmp_f$brk_time<=5/24 & tmp_f$type=="Panelists",] ,
+                 aes(x=brk_time*24*60),binwidth=20,fill="darkgreen",color="white",alpha=1,position = "stack")+
+  labs(title = "Duration of Breaks:Panelists",y="Density",x="Duration in Minutes")+
+  #scale_fill_manual(values = c("Panelists"="darkgreen","Attendee"="blue3"))+
+  scale_x_continuous(breaks = seq(0,220,20),limits = c(-10,240))+
+  theme_classic()
+
+
+ggarrange(ggarrange(P2,P4,nrow = 1,ncol = 2),ggarrange(P1,P3,nrow=1,ncol=2),nrow = 2,ncol = 1)
+
+```
+
+
