@@ -44,6 +44,7 @@ options(width = 10000)
   library(reshape2)
   library(data.table)
   library(chron)
+  library(httr)
   
   set_theme(
     geom.outline.color = "antiquewhite4",
