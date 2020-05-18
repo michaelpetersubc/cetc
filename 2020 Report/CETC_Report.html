@@ -441,7 +441,7 @@ summary {
 <h1>Cleaning the Data</h1>
 <pre class="r"><code>##CONSTRUCTING THE DATA_FRAME
 
-  directory_name&lt;-&quot;C:/Users/HP/Documents/CETC RA/&quot;
+  directory_name&lt;-&quot;https://raw.githubusercontent.com/anubhavpcjha/cetc/master/2020%20Report/&quot;
 
   start_time_usr1&lt;-&quot;6:30:00&quot;
   end_time_usr1&lt;-&quot;17:30:00&quot;
@@ -456,10 +456,9 @@ summary {
   duration_d1&lt;-(-chron(times. = start_time_usr1)+chron(times. = end_time_usr1))*24*60
   duration_d2&lt;-(-chron(times. = start_time_usr2)+chron(times. = end_time_usr2))*24*60
   
+  Attendee_Report&lt;-read_csv(url(paste0(directory_name,&quot;Anonymous_attendee&quot;)),col_names = TRUE,col_types = cols(X1 = col_skip()))
   
-    
-  Attendee_Report&lt;-read_csv(paste0(directory_name,&quot;Anonymous_attendee&quot;),col_names = TRUE,col_types = cols(X1 = col_skip()))
-  Panelist_Report&lt;-read_csv(paste0(directory_name,&quot;Anonymous_panelist&quot;),col_names = TRUE,col_types = cols(X1 = col_skip()))
+  Panelist_Report&lt;-read_csv(url(paste0(directory_name,&quot;Anonymous_panelist&quot;)),col_names = TRUE,col_types = cols(X1 = col_skip()))
   
   
   #Starting and Ending time of attendence for each attendee
