@@ -45,6 +45,7 @@ options(width = 10000)
   library(data.table)
   library(chron)
   library(httr)
+  library(RCurl)
   
   set_theme(
     geom.outline.color = "antiquewhite4",
@@ -68,7 +69,7 @@ options(width = 10000)
 ```{r, message=FALSE, warning=FALSE}
 ##CONSTRUCTING THE DATA_FRAME
 
-  directory_name<-"C:/Users/HP/Documents/CETC RA/"
+  directory_name<-"https://raw.githubusercontent.com/anubhavpcjha/cetc/master/2020%20Report/"
 
   start_time_usr1<-"6:30:00"
   end_time_usr1<-"17:30:00"
@@ -83,10 +84,9 @@ options(width = 10000)
   duration_d1<-(-chron(times. = start_time_usr1)+chron(times. = end_time_usr1))*24*60
   duration_d2<-(-chron(times. = start_time_usr2)+chron(times. = end_time_usr2))*24*60
   
+  Attendee_Report<-read_csv(url(paste0(directory_name,"Anonymous_attendee")),col_names = TRUE,col_types = cols(X1 = col_skip()))
   
-    
-  Attendee_Report<-read_csv(paste0(directory_name,"Anonymous_attendee"),col_names = TRUE,col_types = cols(X1 = col_skip()))
-  Panelist_Report<-read_csv(paste0(directory_name,"Anonymous_panelist"),col_names = TRUE,col_types = cols(X1 = col_skip()))
+  Panelist_Report<-read_csv(url(paste0(directory_name,"Anonymous_panelist")),col_names = TRUE,col_types = cols(X1 = col_skip()))
   
   
   #Starting and Ending time of attendence for each attendee
