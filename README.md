@@ -1,7 +1,7 @@
 # Canadian Economic Theory Conference
-The conference occurs each year in May and rotates between Toronto, Montreal and Vancouver.
+The conference in 2021 will consist of a series of weekly seminars organized by the University of Toronto.  These will run from mid-January through at least the end of April 2021.
 
-This year's conference will be broadcast through Zoom on May 8th-9th 2020.
+To submit a paper to this seminar series, see the conference announcement on the main page [https://microeconomics.c](https://microeconomics.ca) for instructions.
 
 The program can be found [here](https://microeconomics.ca/micro/cetc).
 
