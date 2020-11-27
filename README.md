@@ -3,8 +3,6 @@ The conference in 2021 will consist of a series of weekly seminars organized by 
 
 To submit a paper to this seminar series, see the conference announcement on the main page [https://microeconomics.c](https://microeconomics.ca) for instructions.
 
-The program can be found [here](https://microeconomics.ca/micro/cetc).
-
 This repository contains documentation related to the conference. If you'd like to contribute to it, just submit a pull request.
 
 ## Previous Conference Programs
