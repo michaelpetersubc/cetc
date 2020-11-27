@@ -1,11 +1,15 @@
 # CETC mailing list - 2021
 
-The mailing list for 2021 is complete.  It is located at [https://microeconomics.ca/mailman/listinfo/cetc](https://microeconomics.ca/mailman/listinfo/cetc) which is where anyone can join the subscription list or remove their name from the mailing list.
+## For conference notifications
 
-All the main organizers from toronto and ubc are list admins for the cetc list.  You can view the subscribers list for example.  The list at the start of this year will also be stored in a separate github repo (details soon).
+The main conference mailing list is at [https://microeconomics.ca/mailman/listinfo/cetc](https://microeconomics.ca/mailman/listinfo/cetc).
 
-To get more detailed information about the list, send an email message to [cetc@microeconomics.ca](cetc@microeconomics.ca) which the subject line `help` - really, thats it.  If your message is sent with your official university address it will tell you how to set your password so you can have admin access to the list.  
+You can join the list there is you are not currently getting notifications.  You can unsubscribe there (it is on the lower part of the page).  The members of the mailing list will receive emails about conference or seminar submission deadlines.
 
-If you are using gmail or something as your usual address, it will let you join the list, then the admin settings can be adjusted.
+## For conference seminar listings:
 
-There is a separate mailing list used for sending regular notices of cetc organized seminars at  [https://microeconomics.ca/mailman/listinfo/cetc](https://microeconomics.ca/mailman/listinfo/cetc)
+This year, the 'conference program' will consist of a series of seminars.  See the main page at [https://microeconomics.ca[(https://microeconomics.ca} for more information. 
+
+If you would like to get email notifications once a seminar is scheuled and on the day of a seminar to tell you who is speaking, the title and the twitch url, you can do that by joining the mailing list at [https://microeconomics.ca/mailman/listinfo/cetc](https://microeconomics.ca/mailman/listinfo/cetc).
+
+It works the same way as the main list, but you have to join or leave the lists separately.
