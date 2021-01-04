@@ -15,4 +15,4 @@ The program for January can be found below and will be updated as we go. Please 
 If you have any questions about the seminar series or individual seminars, please contact us at [cetc.conference@gmail.com](cetc.conference@gmail.com).  
 
 Looking forward to seeing you at the CETC seminar series.
-Your organizing team: Anne-Katrin Roesler, and Gabor Virag, Shunya Noda and Mike Peters (among others).
+Your organizing team: Anne-Katrin Roesler, and Gabor Virag, Shunya Noda and Michael Peters (among others).
