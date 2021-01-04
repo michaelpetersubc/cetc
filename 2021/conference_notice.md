@@ -12,7 +12,7 @@ The program for January can be found below and will be updated as we go. Please 
 
 **Submissions and selection process:** Please submit papers that you wish to be considered for inclusion in the series by sending an email to [cetc.conference@gmail.com](cetc.conference@gmail.com) and attaching your paper. Include in your message any time constraints that you might have. Submission deadline is January 15th (we may also consider later submissions but cannot guarantee for it). 
 
-If you have any questions about the seminar series or individual seminars, please contact us at [cetc.conference@gmail.com](cetc.conference@gmail.com).  
+If you have any questions about the seminar series or individual seminars, please contact us at [cetc.conference@gmail.com](mailto:cetc.conference@gmail.com).  
 
 Looking forward to seeing you at the CETC seminar series.
 Your organizing team: Anne-Katrin Roesler, and Gabor Virag, Shunya Noda and Michael Peters (among others).
