@@ -2,7 +2,7 @@
 
 Welcome to this year’s edition of the CETC! Given the current conditions, the CETC will be run as a weekly online seminar this year, instead of the usual in-person conference format. We hope this will encourage interaction among Canadian and international theorists and will help to maintain a sense of community.
 
-Weekly seminars (January - April 2021): Every **Thursday, 12 – 1pm EST** 
+Weekly seminars (January - April 2021): Every **Thursday, 1 – 2pm EST** 
 Seminars will be live streamed on [https://www.twitch.tv/cetc_seminars](https://www.twitch.tv/cetc_seminars),
 followed by 30min of discussion and informal interaction on [discord](https://discord.com).
 
