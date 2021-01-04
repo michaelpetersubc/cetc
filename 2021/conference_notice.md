@@ -8,7 +8,7 @@ followed by 30min of discussion and informal interaction on [discord](https://di
 
 Invitations to join the discord server will be sent out via email. Please reach out to us if you did not receive the invitation and would like to join. 
 
-The program for January can be found below and will be updated as we go. Please make sure to join the mailing list **TBA** to stay up-to-date and receive reminders about the seminars.
+The program for January can be found below and will be updated as we go. Please make sure to join the mailing list [https://microeconomics.ca/mailman/listinfo/cetc_seminars](https://microeconomics.ca/mailman/listinfo/cetc_seminars) to stay up-to-date and receive reminders about the seminars.
 
 **Submissions and selection process:** Please submit papers that you wish to be considered for inclusion in the series by sending an email to cetc.conference@gmail.com and attaching your paper. Include in your message any time constraints that you might have. Submission deadline is January 15th (we may also consider later submissions but cannot guarantee for it). 
 
