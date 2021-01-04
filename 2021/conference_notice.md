@@ -1,6 +1,18 @@
 # CETC 2021
 
-Given the current conditions, the new edition of the CETC (for 2021) is to take place in a format different from the usual. To encourage interaction, and to maintain a sense of community among Canadian and International theorists, papers will be presented in a weekly online seminar format on each Thursday in the upcoming term (January-April) with the first talk on January 7. Each presentation will run 60 minutes followed by 30 minutes of discussion and informal interaction in a chat room after the talk. (Seminars will be live streamed on [https://www.twitch.tv/cetc_seminars](https://www.twitch.tv/cetc_seminars). All presenters will be invited as panelists for all the talks. Viewers on twitch.tv will be welcomed post seminar to interact with presenters and panelists in our chat room, which takes place on a [discord](https://discord.com) server.)
-    
-Submission deadline and selection process:
-You can submit a paper for inclusion in the series by sending an email to cetc.conference@gmail.com, and attaching your paper. Include in your message any time constraints that you might have. Submission deadline is January 15th but early submissions may be considered for early slots. If you have any other questions about the conference please send them to the same email address cetc.conference@gmail.com. The conference organizers this year are Anne-Katrin Roesler, and Gabor Virag (among others).
+Welcome to this year’s edition of the CETC! Given the current conditions, the CETC will be run as a weekly online seminar this year, instead of the usual in-person conference format. We hope this will encourage interaction among Canadian and international theorists and will help to maintain a sense of community.
+
+Weekly seminars (January - April 2021): Every **Thursday, 12 – 1pm EST** 
+Seminars will be live streamed on [https://www.twitch.tv/cetc_seminars](https://www.twitch.tv/cetc_seminars),
+followed by 30min of discussion and informal interaction on [discord](https://discord.com).
+
+Invitations to join the discord server will be sent out via email. Please reach out to us if you did not receive the invitation and would like to join. 
+
+The program for January can be found below and will be updated as we go. Please make sure to join the mailing list **TBA** to stay up-to-date and receive reminders about the seminars.
+
+**Submissions and selection process:** Please submit papers that you wish to be considered for inclusion in the series by sending an email to cetc.conference@gmail.com and attaching your paper. Include in your message any time constraints that you might have. Submission deadline is January 15th (we may also consider later submissions but cannot guarantee for it). 
+
+If you have any questions about the seminar series or individual seminars, please contact us at cetc.conference@gmail.com  
+
+Looking forward to seeing you at the CETC seminar series.
+Your organizing team: Anne-Katrin Roesler, and Gabor Virag, Shunya Noda and Mike Peters (among others).
