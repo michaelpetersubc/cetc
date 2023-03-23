@@ -132,3 +132,119 @@ Two homogeneous-good firms compete for a consumer’s unitary demand. The consum
 [Joel Sobel](https://econweb.ucsd.edu/~jsobel/) UC San Diego
 
 This paper presents arguments based on weak dominance and learning for se- lecting informative equilibria in a model of cheap-talk communication where play- ers must use monotonic strategies. Under a standard regularity condition, only one equilibrium survives iterated deletion of interim dominated strategies. Under the same condition, we establish that best-response dynamics converges to this outcome.
+
+## How Informed Do You Want Your Principal To Be?
+
+[Rahul Deb](https://www.economics.utoronto.ca/debrahul/) Department of Economics, University of Toronto
+
+[Mallesh Pai](http://www.malleshmpai.com) Department of Economics, Rice University
+[Anne-Katrin Roesler](https://sites.google.com/site/akroesler/) Department of Economics, University of Toronto
+
+In many bilateral trade settings of interest, at the time of contracting, both parties, i.e., the buyer and the seller,  have private information. However, most existing work restricts attention to one-sided private information to avoid the complications of an <em>informed principal</em> problem. Hence there is little understanding of the implications of two-sided private information on optimal mechanisms, and resulting seller profit and buyer welfare. Motivated by regulatory questions in the personalized pricing of products such as health insurance, we pose and answer the following question: how much (if any) private information would the buyer want the seller to have in a bilateral trade setting? <br />In our setting, the buyer's value for a good depends on his private type and the quality of the good that is unknown to him. The seller learns about the quality via a (noisy) private signal whose realization is the seller's private information. This quality affects both the buyer's value and the seller's cost, i.e., this is an interdependent values setting. We characterize the buyer-optimal outcome: this is the information structure and the corresponding seller-optimal equilibrium of the informed principal game that yields the highest consumer surplus. We show that there are conditions under which private information for the seller can lead both to greater profits and higher consumer surplus; that is, compared to being uninformed, seller private information can lead to Pareto gains. Additionally, maybe surprisingly, there are also conditions under which the seller does not benefit from having private information. These are settings where a privately informed seller leads to a lemons problem a la Akerlof (1970), albeit one where the information is two-dimensional (buyer and seller private information).   The information structure for the seller that yields the highest welfare for the buyer is typically not fully informative, i.e., the seller is only partially informed about the quality of the good. We interpret this as a justification for buyer privacy regulations. 
+
+## A Theory of Revealed Indirect Preference
+
+[Gaoji Hu](https://hugaoji.weebly.com/) School of Economics, Shanghai University of Finance and Economics
+
+[Jiangtao Li](https://jiangtaoli.weebly.com/) School of Economics, Singapore Management University
+
+[John Quah](https://www.johnquah.com/) Department of Economics, John Hopkins University
+
+[Rui Tang](https://ruitangeconomics.weebly.com/) Department of Economics, Hong Kong University of Science and Technology
+
+We call a preference over menus an indirect preference if there exists a preference over the objects that make up the menus and a menu is ranked over another if it contains an object that is preferred to every object in the other menu. Suppose an observer has information on an agent’s ranking over some menus; we develop an empirically implementable test to determine if those rankings are part of an indirect preference. Our result has applications to (1) revealed price preference, (2) coarse rationalizability, (3) testing multiple preferences, and (4) testing minimax regret.
+
+## Information Design in Cheap Talk
+
+[Qianjun LYU](https://www.qianjunlyu.com) University of Bonn
+
+[Wing Suen](https://www4.fbe.hku.hk/~wsuen/) University of Hong Kong
+
+An uninformed sender publicly commits to an informative experiment about an uncertain state, privately observes its outcome, and sends a cheap-talk message to a receiver. We provide an algorithm valid for arbitrary state-dependent preferences that will determine the sender's optimal experiment and his equilibrium payoff under binary state space. We give sufficient conditions for information design to be valuable or not under different payoff structures. These conditions depend more on marginal incentives---how payoffs vary with the state---than on the alignment of sender's and receiver's rankings over actions within a state. The algorithm can be easily modified to study canonical cheap talk game with perfectly informed sender. 
+
+## Who Controls the Agenda Controls the Polity
+
+[S. Nageeb Ali](https://sites.google.com/site/nageeb/) Pennsylvania State University, Department of Economics
+
+[B. Douglas Bernheim](https://bernheim.people.stanford.edu/) Stanford University, Department of Economics
+
+[Alexander W. Bloedel](https://sites.google.com/site/alexanderbloedel/home) UCLA, Department of Economics
+
+[Silvia Console Battilana](https://www.auctionomics.com/dr-silvia-console-battilana) Auctionomics
+
+This paper models legislative decision-making with an agenda setter who can propose policies sequentially, tailoring each proposal to the status quo that prevails after prior votes. Voters are sophisticated and the agenda setter cannot commit to her future proposals. Nevertheless, the agenda setter obtains her favorite outcome in every equilibrium regardless of the initial default policy. Central to our results is a new condition on preferences, <em>manipulability</em>, that holds in rich policy spaces, including spatial settings and distribution problems. Our results overturn the conventional wisdom that voter sophistication alone constrains an agenda setter’s power.
+
+## Collusion-proof dynamic mechanisms
+
+[Heng Liu](http://hengliu.weebly.com) Department of Economics, University of Michigan
+
+Most existing work in the dynamic mechanism design literature focuses on the truth-telling equilibrium in direct mechanisms. However, agents have plenty of opportunities to coordinate or collude in dynamic settings that could undermine the effectiveness of the mechanisms. This paper defines a notion of collusion-proofness and constructs efficient and collusion-proof direct dynamic mechanisms in independent private value environments with general transition dynamics. We also provide an indirect implementation of the collusion-proof mechanisms that generalizes the linking mechanism in Bayesian mechanism design without transfers.
+
+## Endogenous Criteria for Success
+
+[Rene Kirkegaard](http://www.renekirkegaard.com/) University of Guelph
+
+Economic agents are motivated to undertake costly actions by the prospectof being rewarded for successes and punished for failures. But what determineswhat a success looks like? This paper endogenizes the criteria for success inan otherwise standard principal-agent model with risk neutrality and limitedliability. The set of feasible contracts is constrained by incentive constraintsand possibly by a budget constraint. If the principal manipulates the criteriafor success only to lower implementation costs, and depending on which type ofconstraint is more restrictive, the second-best action may be above or below thefirst-best action. However, given the second-best action, the criteria for successare as stringent as possible. In a class of problems where the principal's payoffdepends directly on the criteria for success, the second-best solution featureseither more stringent criteria for success or a lower action (or both) than thefirst-best solution.
+
+## Procedural Expected Utility
+
+[Mu Zhang](https://www.mu-zhang.com/) Department of Economics, University of Michigan
+
+
+Individuals faced with multi-dimensional risk needs to complete two steps  in the decision-making process: aggregating deterministic outcomes and assessing risk in each dimension. The classical model, Expected Utility (EU), operates under the implicit assumption that outcome aggregation occurs before risk assessment. In this paper, we provide a new axiomatic framework to explore the various procedures used to finish these two steps in different orders. Our framework maintains the Independence axiom within each dimension but allows for relaxation of it cross dimensions, leading to novel procedures that reverse or partially reverse the order of EU. Through different applications, we demonstrate that our procedures can (i) explain experimental evidence of stochastic dominance violations without requiring individuals to choose less total money over more total money in the absence of risk, (ii) separate time and risk preferences without assuming a strong preference for early resolution of uncertainty, and (iii) accommodate non-trivial risk aversion over time lotteries without violating a notion of impatience under risk. 
+
+## Pricing and Perpetual Royalties with Repeated Resale
+
+[Matthew Mitchell](https://matthewmitchelltoronto.weebly.com/) Graduate Department of Management University of Toronto
+
+This paper considers a durable object that is repeatedly resold among a potential buyers that trade bilaterally, so that markets are thin at any point in time. The results highlight differences between possible contracting environments which, in practice, have become especially important as record keeping technologies improve. Traditional ownership, where each owner sets a price unilaterally, leads to reduction in trade through markups; opportunities for future resale increase these inefficiencies relative to one time sales. Markups decline over time as resale opportunities decline. Fixed percentage perpetual royalties paid to the first owner, as mandated in some countries, are counterproductive; they lower the first owner's value. By constrast, a dynamic contract designed to maximize profits of the first owner achieves efficiency in all but the first sale, despite not achieving full surplus extraction at any point. The first sale is distorted exactly as a one time sale, which is a smaller distortion than any transaction under traditional ownership. The dynamic contract can be interpreted as nonlinear perpetual royalties, a form of payment that has increasingly been discussed especially in digital art markets as record keeping technologies improve. Such price discrimination can increase efficiency, especially in resale transactions.
+
+## On Political Spectra
+
+[Qinggong Wu](http://wqg.weebly.com/) Department of Economics, Hong Kong University of Science and Technology
+
+[Xingye Wu](http://wuxy.weebly.com/) Department of Economics, Tsinghua University
+
+A political spectrum is a chart that places political opinions in a geometric space to illustrate their positions in relation to one another. We argue that its most essential feature is geometric representation of political disagreement: opinions which disagree more are positioned more separately in a spectrum. Building upon this insight, we formally define political spectra within a general social choice framework in which political opinions correspond to preferences. Specifically, we model a political spectrum as a mapping from preferences to a Euclidean space that geometrically represents dis- agreement in the preferences. We show that the model can accommodate a broad range of applications, and establish a number of existential and structural properties of political spectra thus modeled. We also find that a key parameter — the dimensionality of a spectrum — reflects the underlying ideological diversity within the society, and moreover, it is directly connected to the possibility for the society to elect a widely supported collective choice — the formal statement of this result subsumes findings in Grandmont (1978) and Nakamura (1979). 
+
+## Rational Exuberance and Bubbles
+
+[Yu Awaya](https://sites.google.com/site/yuawaya/home) Department of Economics, University of Rochester
+
+[Vijay Krishna](https://sites.google.com/site/vjkrishna/) Department of Economics, Penn State University
+
+We study a model of dynamic adverse selection in which a large group of sellers sell an asset of uncertain quality to a larger group of buyers. The quality is known to the sellers but unknown to the buyers. There is, however, the possibility that if the asset is of low quality, this will be revealed via public news at a random time. We show that there is a unique equilibrium satisfying forward induction. In this equilibrium a bubble develops. Even a worthless asset is traded at rapidly increasing prices. This is because in the absence of bad news, buyers become more and more optimisticó they exhibit rational exuberance.
+
+## Marginal Stochastic Choice
+
+[Yaron Azrieli](http://web.econ.ohio-state.edu/azrieli/) Ohio State University, Department of Economics
+[John Rehbeck](https://sites.google.com/site/johnrehbeck/) Ohio State University, Department of Economics</td>
+
+Models of stochastic choice typically use conditional choice probabilities given menus as the primitive for analysis, but in the field these are often hard to observe. Moreover, studying preferences over menus is not possible with this data. We assume that an analyst can observe marginal frequencies of choice and availability, but not conditional choice frequencies, and study the testableimplications and identification of some prominent models of stochastic choice for this dataset. We also characterize the rationalizable marginal distributions in the models of Gul and Pesendorfer [2001] and of Kreps [1979], where agents select the menu before choosing an alternative.
+
+## Common Agency with Non-Delegation or Imperfect Commitment
+
+[Seungjin Han](https://socialsciences.mcmaster.ca/han/index.html) Department of Economics, McMaster University
+
+[Siyang Xiong](https://sites.google.com/site/xiongecon/) Department of Economics, University of California, Riverside
+
+Inspired by Szentes critique (Szentes (2009)), we study common agency models with non-delegated contracts. In such a setup, we prove that the menu theorem in Peters (2001) holds partially only under some particular information structure, and we use examples to show that it fails generally. Furthermore, we prove a menu-of-menu-<br />with-recommendation theorem in our models. Finally, we show that our results can be easily extended to common agency with imperfect commitment &agrave; la Bester and Strausz (2000, 2001, 2007).
+
+## Bayes = Blackwell, Almost
+
+[Mark Whitmeyer](https://sites.google.com/site/markwhitmeyer/) Arizona State University, Department of Economics
+
+Nour Chalhoub Arizona State University, Department of Economics
+
+There are updating rules other than Bayes' law that render the value of information positive. We find all of them.
+
+## Randomization and Linearity in the Robust Principal-Agent Problem
+
+[Ashwin Kambhampati](http://ashwinkambhampati.com/) Department of Economics, United States Naval Academy
+
+[Juuso Toikka](https://bepp.wharton.upenn.edu/profile/toikka/)The Wharton School &amp; Department of Economics, University of Pennsylvania
+
+[Rakesh Vohra](https://economics.sas.upenn.edu/people/rakesh-vohra) Department of Economics; Department of Electrical and Systems Engineering, University of Pennsylvania
+
+
+We study a contracting problem between a principal and an agent, both of whom are protected by limited liability. The principal knows a surplus-generating action the agent can take, but is concerned that others may be available. Hence, she chooses a contract to maximize her worst-case payoff over all possible unknown actions. Carroll (2015) showed that the optimal deterministic contract in this setting is linear, but Kambhampati (2023) showed that randomization strictly benefits the principal, leaving open the question of the structure of the optimal (random) contract. We prove a positive result: For any random contract, there exists a randomization over linear contracts that does at least as well.
