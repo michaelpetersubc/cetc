@@ -4,7 +4,7 @@
 	
 [Shurojit Chatterji](https://shurojitchatterji.weebly.com/) School of Economics, Singapore Management University
 
-Presenter - [Takashi Kunimoto](https://sites.google.com/site/tkunimoto73/) School of Economics, Singapore Management University
+[Takashi Kunimoto](https://sites.google.com/site/tkunimoto73/) School of Economics, Singapore Management University
 
 [Paulo Ramos](https://economics.smu.edu.sg/phd-economics/our-students) Singapore Management University
 
@@ -41,6 +41,7 @@ We study the classic principal-agent model when the signal observed by the princ
 [Benny Moldovanu](https://www.econ.uni-bonn.de/micro/en/moldovanu) Department of Economics, University of Bonn
 
 [Philipp Strack](https://www.philippstrack.com/) Department of Economics, Yale Univesity
+
 [Mengxi Zhang](https://sites.google.com/bu.edu/mengxizhang) Department of Economics, University of Bonn
 
 
@@ -77,7 +78,9 @@ A group of agents with ex-ante independent and identically uncertain quality com
 [William Brock](https://www.ssc.wisc.edu/~wbrock/) University of Wisconsin-Madison
 
 [Bo Chen](http://faculty.smu.edu/bochen) Southern Methodist University
+
 [Steven Durlauf](https://home.uchicago.edu/sdurlauf/) University of Chicago
+
 [Shlomo Weber](https://hceconomics.uchicago.edu/people/shlomo-weber) Southern Methodist University
 
 Immigrants in economies with a dominant native language exhibit substantial heterogeneities in language acquisition of the majority language. We model partial equilibrium language acquisition as an equilibrium phenomenon. We consider an environment where heterogeneous agents from various minority groups choose whether to acquire a majority language fully, partially, or not at all. Different acquisition decisions confer different communicative benefits and incur different costs. We offer an equilibrium characterization of language acquisition strategies and find that partial acquisition can arise as an equilibrium behavior. We also show that a language equilibrium may exhibit insufficient learning relative to the social optimum. In addition, we provide a local stability analysis of steady state language equilibria. Finally, we discuss econometric implementation of the language acquisition model and establish identification conditions.
@@ -96,6 +99,7 @@ Consider a game where rationally inattentive agents acquire costly information a
 [Eddie Dekel](https://sites.google.com/site/eddiedekelsite/) Department of Economics, Northwestern University
 
 [John K.-H. Quah](https://www.johnquah.com/) Johns Hopkins University
+
 [Ludvig Sinander](https://www.ludvigsinander.net/) Department of Economics, University of Oxford
 			
 
@@ -138,6 +142,7 @@ This paper presents arguments based on weak dominance and learning for se- lecti
 [Rahul Deb](https://www.economics.utoronto.ca/debrahul/) Department of Economics, University of Toronto
 
 [Mallesh Pai](http://www.malleshmpai.com) Department of Economics, Rice University
+
 [Anne-Katrin Roesler](https://sites.google.com/site/akroesler/) Department of Economics, University of Toronto
 
 In many bilateral trade settings of interest, at the time of contracting, both parties, i.e., the buyer and the seller,  have private information. However, most existing work restricts attention to one-sided private information to avoid the complications of an <em>informed principal</em> problem. Hence there is little understanding of the implications of two-sided private information on optimal mechanisms, and resulting seller profit and buyer welfare. Motivated by regulatory questions in the personalized pricing of products such as health insurance, we pose and answer the following question: how much (if any) private information would the buyer want the seller to have in a bilateral trade setting? <br />In our setting, the buyer's value for a good depends on his private type and the quality of the good that is unknown to him. The seller learns about the quality via a (noisy) private signal whose realization is the seller's private information. This quality affects both the buyer's value and the seller's cost, i.e., this is an interdependent values setting. We characterize the buyer-optimal outcome: this is the information structure and the corresponding seller-optimal equilibrium of the informed principal game that yields the highest consumer surplus. We show that there are conditions under which private information for the seller can lead both to greater profits and higher consumer surplus; that is, compared to being uninformed, seller private information can lead to Pareto gains. Additionally, maybe surprisingly, there are also conditions under which the seller does not benefit from having private information. These are settings where a privately informed seller leads to a lemons problem a la Akerlof (1970), albeit one where the information is two-dimensional (buyer and seller private information).   The information structure for the seller that yields the highest welfare for the buyer is typically not fully informative, i.e., the seller is only partially informed about the quality of the good. We interpret this as a justification for buyer privacy regulations. 
