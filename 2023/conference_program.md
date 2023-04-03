@@ -1,5 +1,4 @@
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:url" content="https://www.economics.utoronto.ca/conferences/index.php/cetc/2023 />
 <meta property="og:title" content="CETC 2023 Program" />
 <meta property="og:description" content="Canadian Economic Theory Conference 2023 Program | May 5th - May 7th | Hosted by Simon Fraser University" />
 <meta property="og:image" content="https://raw.githubusercontent.com/michaelpetersubc/cetc/master/2020/CETC.png" />
@@ -11,8 +10,7 @@
 
 # Canadian Economic Theory Conference - May 5,7, Simon Fraser University  
 
-<div  class="fb-share-button"  data-href="https://www.economics.utoronto.ca/conferences/index.php/cetc/2023"  data-layout=""  data-size=""><a  target="_blank"  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.economics.utoronto.ca%2Fconferences%2Findex.php%2Fcetc%2F2023&amp;src=sdkpreparse"  class="fb-xfbml-parse-ignore">Share</a></div>
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Canadian Economic Theory Conference 2023 program available at" data-url="https://www.economics.utoronto.ca/conferences/index.php/cetc/2023" data-hashtags="cetc2023" data-show-count="false">Tweet</a> Official hashtag: #cetc2023
+
 
 This is the official program for the 2023 Canadian Economic Theory Conference, organized by Simon Fraser University and the University of British Columbia.
 
