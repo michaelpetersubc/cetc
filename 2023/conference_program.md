@@ -4,10 +4,6 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/michaelpetersubc/cetc/master/2020/CETC.png" />
 
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 # Canadian Economic Theory Conference - May 5,7, Simon Fraser University  
 
 
