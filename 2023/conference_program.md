@@ -4,7 +4,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/michaelpetersubc/cetc/master/2020/CETC.png" />
 
 
-# Canadian Economic Theory Conference - May 5,7, Simon Fraser University  
+# Canadian Economic Theory Conference - May 5-7, Simon Fraser University  
 
 
 
@@ -21,11 +21,13 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 
 #### Session A:  9:00 am - 10:00 am 
 
-1. #####  Blackwell Correlated Equilibrium 
-      [Tommaso Denti](https://sites.google.com/site/tommasojdenti/home)* (Cornell University) , [Doron Ravid](https://sites.google.com/site/ravidd/) (University of Chicago)
 
-2. #####  Bayes = Blackwell, Almost
-      [Mark Whitmeyer](https://sites.google.com/site/markwhitmeyer/)* (Arizona State University), [Nour Chalhoub](https://search.asu.edu/profile/3452319) (Arizona State University)
+1. ##### Strategic Evidence Disclosure in Networks and Equilibrium Discrimination [[PDF]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4305083)
+
+     [Leonie Baumann](https://sites.google.com/site/leoniebaumann/home) (McGill University), [Rohan Dutta](https://sites.google.com/site/rohandutta/)* (McGill University)
+
+2. #####  Bayes = Blackwell, Almost [[PDF]](https://whitmeyerhome.files.wordpress.com/2023/03/bayes___blackwell_v18.pdf)
+      [Mark Whitmeyer](https://sites.google.com/site/markwhitmeyer/)* (Arizona State University)
 
 #### 10:00 am – 10:15 am
 * **Break**
@@ -57,7 +59,7 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 1. #####  A comprehensive revealed preference approach to approximate utility maximisation
       [Pawel Karol Dziewulski](http://pawel-dziewulski.com)* (University of Sussex)
 
-2. #####  A Theory of Revealed Indirect Preference
+2. #####  A Theory of Revealed Indirect Preference [[PDF]](https://jiangtaoli.weebly.com/uploads/6/4/8/1/6481232/trip_submitted.pdf)
       [Gaoji Hu](https://hugaoji.weebly.com/) (Shanghai University of Finance and Economics), [Jiangtao Li](https://jiangtaoli.weebly.com/)* (Singapore Management University), [John Quah](https://www.johnquah.com/) (National University of Singapore), [Rui Tang](https://ruitangeconomics.weebly.com/) (Hong Kong University of Science and Technology)
 
 #### 3:00 pm – 3:15 pm
@@ -73,7 +75,7 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 #### 4:15 pm – 4:30 pm
 * **Break**
  
-#### Session F: 4:30 pm - 5:30 pm 
+#### Session F: 4:30 pm - 5:00 pm 
 1. #####  Indicator Choice in Pay-for-Performance 
       [Ali Shourideh](http://www.shourideh.com)*(Tepper School of Business), [Majid Mahzoon](https://www.majidmahzoon.com/) (Tepper School of Business), [Ariel Zetlin-Jones](https://www.andrew.cmu.edu/user/azj/)(Tepper School of Business)
 
@@ -88,10 +90,9 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 
 #### Session G:  9:00 am - 10:00 am 
 
-1. ##### Everybody’s Talkin’ at Me: Levels of Majority Language Acquisition by Minority Language Speakers
-      [William Brock](https://www.ssc.wisc.edu/~wbrock/) (University of Wisconsin - Madison ), [Bo Chen](http://faculty.smu.edu/bochen)* (Southern Methodist University), [Steven Durlauf](https://home.uchicago.edu/sdurlauf/) (University of Chicago),  [Shlomo Weber](https://hceconomics.uchicago.edu/people/shlomo-weber) (Southern Methodist University.)
-
-2. #####  Strategy-proof Multi-Issue Mediation: An Application to Online Dispute Resolution
+1. ##### Endogenous Criteria for Success [[PDF]](https://rene-kirkegaard.squarespace.com/s/CriteriaJuly2022.pdf)
+      [Rene Kirkegaard](http://www.renekirkegaard.com/)* (University of Guelph)
+2. #####  Strategy-proof Multi-Issue Mediation: An Application to Online Dispute Resolution [[PDF]](https://www.selcukozyurt.com/_files/ugd/56c471_9d3c348117c9482bade5966f6ca2332c.pdf)
       [Selcuk Ozyurt](http://www.selcukozyurt.com)* (York University), [Onur Kesten](https://www.sydney.edu.au/arts/about/our-people/academic-staff/onur-kesten.html) (The University of Sydney)
 
 #### 10:00 am – 10:15 am
@@ -99,10 +100,10 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 
 #### Session H:  10:15 am - 11:15 am 
 
-1. #####  Optimal Insurance: Dual Utility, Random Losses and Adverse Selection
+1. #####  Optimal Insurance: Dual Utility, Random Losses and Adverse Selection [[PDF]](https://github.com/BabakSahragard/CETCprogram/blob/main/Optimal%20Insurance.pdf))
       [Alex Gershkov](https://pluto.huji.ac.il/~alexg/) (Hebrew University of Jerusalem), [Benny Moldovanu](https://www.econ.uni-bonn.de/micro/en/moldovanu) (University of Bonn) , [Philipp Strack](https://www.philippstrack.com/) (Yale University), [Mengxi Zhang](https://sites.google.com/bu.edu/mengxizhang)* (University of Bonn)
 
-2. #####  Common Agency with Non-Delegation or Imperfect Commitment
+2. #####  Common Agency with Non-Delegation or Imperfect Commitment [[PDF]](https://socserv.socsci.mcmaster.ca/han/research/CM-2022-06-15.pdf)
       [Seungjin Han](https://socialsciences.mcmaster.ca/han/index.html)* (McMaster University), [Siyang Xiong](https://sites.google.com/site/xiongecon/) (University of California, Riverside)
 
 #### 11:15 am – 11:30 am
@@ -113,7 +114,7 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 1. ##### Rational Inattention and Endogenous Volatility in Games: A Large Deviation Approach
      [Tetsuya Hoshino](https://www.tetsuyahoshino.com)* (ITAM), [Takashi Ui](https://sites.google.com/site/takashiui/) ( Kanagawa University)
 
-2. #####  Competing to Commit: Markets with Rational Inattention
+2. #####  Competing to Commit: Markets with Rational Inattention [[PDF]](https://github.com/BabakSahragard/CETCprogram/blob/main/Cusumano_Fabbri_Pieroth.pdf)
     [Carlo Maria Cusumano](https://www.carlocusumano.org/) (Yale University), [Francesco Fabbri](https://www.francesco-fabbri.com/)* (Princeton University ), [Ferdinand Pieroth](https://www.ferdinandpieroth.com/) (Yale University)
 
 #### 12:30 pm – 2:00 pm
@@ -131,8 +132,8 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 * **Break**
 
 #### Session K: 3:15 pm - 4:15 pm 
-1. ##### The Economics of Career Concerns in Teamwork 
-      [Huseyin Yildirim](https://works.bepress.com/huseyin_yildirim/)* (Duke University)
+1. #####   Who Controls the Agenda Controls the Polity
+      [S. Nageeb Ali](https://sites.google.com/site/nageeb/) (Pennsylvania State University) , [B. Douglas Bernheim](https://bernheim.people.stanford.edu/) (Stanford University) , [Alexander W. Bloedel](https://sites.google.com/site/alexanderbloedel/home)* (UCLA) , [Silvia Console Battilana](https://www.auctionomics.com/dr-silvia-console-battilana) (Auctionomics)
 
 2. #####  Reputation Effects under Short Memories
     [Harry PEI](https://sites.northwestern.edu/harrypei/research/)* (Northwestern University) 
@@ -140,12 +141,11 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 #### 4:15 pm – 4:30 pm
 * **Break**
  
-#### Session L: 4:30 pm - 5:30 pm 
-1. ##### On Political Spectra
+#### Session L: 4:30 pm - 5:00 pm 
+1. ##### On Political Spectra [[PDF]](https://github.com/BabakSahragard/CETCprogram/blob/main/Condorcet_original.pdf)
       [Qinggong Wu](http://wqg.weebly.com/)* (Hong Kong University of Science and Technology) , [Xingye Wu](http://wuxy.weebly.com/) (Tsinghua University)
 
-2. #####   Who Controls the Agenda Controls the Polity
-      [S. Nageeb Ali](https://sites.google.com/site/nageeb/) (Pennsylvania State University) , [B. Douglas Bernheim](https://bernheim.people.stanford.edu/) (Stanford University) , [Alexander W. Bloedel](https://sites.google.com/site/alexanderbloedel/home)* (UCLA) , [Silvia Console Battilana](https://www.auctionomics.com/dr-silvia-console-battilana) (Auctionomics)
+
 
 
 #### 6:30 pm 
@@ -159,21 +159,21 @@ This is the official program for the 2023 Canadian Economic Theory Conference, o
 * **Coffee**
 
 #### Session M:  9:00 am - 10:00 am 
-1. ##### Marginal Stochastic Choice
+1. ##### Marginal Stochastic Choice [[PDF]]( https://drive.google.com/file/d/1stCQfvL1Bm7CaOcbBrGTIQs7zgsCkhd9/view)
       [Yaron Azrieli](http://web.econ.ohio-state.edu/azrieli/)* (Ohio State University), [John Rehbeck](https://sites.google.com/site/johnrehbeck/) (Ohio State University)
-2. ##### Procedural Expected Utility
+2. ##### Procedural Expected Utility [[PDF]](https://github.com/BabakSahragard/CETCprogram/blob/main/Procedural_EU_0314.pdf)
       [Mu Zhang](https://www.mu-zhang.com/)* (University of Michigan)
 
-#### 10:00 am – 10:15 am
+#### 10:00 am – 10:30 am
 * **Break**
 
-#### Session N:  10:15 am - 11:45 am 
-1. ##### Non-Fundamental Volatility in Financial Markets
+#### Session N:  10:30 am - 11:30 am 
+1. ##### Non-Fundamental Volatility in Financial Markets [[PDF]](https://keisuketeeple.files.wordpress.com/2022/11/non_fundamental_vol.pdf)
       [Keisuke Teeple](http://keisuketeeple.wordpress.com)* (University of Waterloo)
-2. ##### Endogenous Criteria for Success
-      [Rene Kirkegaard](http://www.renekirkegaard.com/)* (University of Guelph)
-  3. ##### Strategic Evidence Disclosure in Networks and Equilibrium Discrimination
-       [Leonie Baumann](https://sites.google.com/site/leoniebaumann/home) (McGill University), [Rohan Dutta](https://sites.google.com/site/rohandutta/)* (McGill University)
+
+2. #####  Blackwell Correlated Equilibrium 
+      [Tommaso Denti](https://sites.google.com/site/tommasojdenti/home)* (Cornell University) , [Doron Ravid](https://sites.google.com/site/ravidd/) (University of Chicago)      
+
 **Presenter of paper.*
 
 ----
